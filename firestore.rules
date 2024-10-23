@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      // Allow all users (authenticated or not) to read and create data
+      allow read: if true;
+      allow create, update: if true;
+      
+      // Allow only authenticated users to delete data
+      allow delete: if request.auth != null;
+    }
+  }
+}

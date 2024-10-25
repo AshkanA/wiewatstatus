@@ -9,8 +9,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   position: relative;
-  background-repeat: repeat-x;
-  background-size: 33% auto;
 }
 
 .button-container {
@@ -71,14 +69,29 @@ body {
   overflow: hidden;
 }
 
+.table-container h2 {
+  margin-bottom: 40px;
+}
+
+.form-container {
+  cursor: pointer;
+}
+
 .content {
   width: 100%;
-  max-width: 800px;
   margin: 0 auto;
   transition: max-height 0.3s ease-out;
   max-height: 1000px;
   opacity: 1;
   transition: max-height .25s ease-in-out, opacity .2s ease-in-out;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+}
+
+.content #dataForm {
+  width: 100%;
+  max-width: 800px;
 }
 
 .content.closed {
@@ -100,10 +113,11 @@ body {
 
 .modal-content {
   background-color: #fff;
-  margin: 15% auto;
+  margin: auto;
+  margin-top: 200px;
   padding: 20px;
   border: 1px solid #888;
-  width: 300px;
+  width: 400px;
 }
 
 .close {
@@ -120,10 +134,17 @@ body {
   cursor: pointer;
 }
 
+#loginForm button[type=submit] {
+  margin-top: 30px;
+}
+
 h1, h2 {
   color: #185b1a;
   margin-bottom: 20px;
-  cursor: pointer;
+}
+
+.modal-content h2 {
+  padding: 0 10px;
 }
 
 form {
@@ -133,7 +154,7 @@ form {
   gap: 10px;
 }
 
-input, textarea {
+input:not([type=checkbox]), textarea {
   box-sizing: border-box;
   padding: 10px;
   font-size: 16px;
@@ -281,18 +302,36 @@ tr:nth-child(even) td {
 
 /* Feedback Modal Styles */
 #feedbackModal .modal-content {
-  width: 400px;
+  width: 550px;
   padding: 20px;
+}
+
+#feedbackModal textarea#description {
+  min-height: 280px;
+  resize: vertical;
 }
 
 #feedbackForm fieldset {
   border: none;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 #feedbackForm legend {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+#feedbackForm .form-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#feedbackForm .form-field label {
+  width: 100%;
 }
 
 /* Responsive Design */

@@ -6,6 +6,7 @@
   <title>Wie Wat Status</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body>
   <div class="button-container">
@@ -32,14 +33,28 @@
       <span id="closeFeedbackModal" class="close">&times;</span>
       <h2>Wijzigingsverzoek</h2>
       <form id="feedbackForm">
+        <p>Vul uw emailadres in:</p>
+        <input type="email" name="contactEmail" id="contactEmail" required placeholder="Email">
         <p>Vul de volgende informatie in voor uw wijzigingsverzoek:</p>
         <textarea id="description" placeholder="Beschrijving" required></textarea>
         <fieldset>
           <legend>Wijzigingsopties:</legend>
-          <label><input type="checkbox" name="option" value="Verwijderen"> Verwijderen</label>
-          <label><input type="checkbox" name="option" value="Contactpersoon"> Contactpersoon</label>
-          <label><input type="checkbox" name="option" value="Bron"> Bron</label>
-          <label><input type="checkbox" name="option" value="Status"> Status</label>
+          <div class="form-field">
+            <input id="deleteField" type="checkbox" name="option" value="Verwijderen">
+            <label for="deleteField">Verwijderen</label>
+          </div>
+          <div class="form-field">
+            <input id="contactPersonField" type="checkbox" name="option" value="Contactpersoon">
+            <label for="contactPersonField">Contactpersoon</label>
+          </div>
+          <div class="form-field">
+            <input id="sourceField" type="checkbox" name="option" value="Bron">
+            <label for="sourceField">Bron</label>
+          </div>
+          <div class="form-field">
+            <input id="statusField" type="checkbox" name="option" value="Status">
+            <label for="statusField">Status</label>
+          </div>
         </fieldset>
         <button type="submit">Verstuur Verzoek</button>
       </form>
@@ -76,7 +91,7 @@
       <table id="recordsTable">
         <thead>
           <tr>
-            <th>Gemeente</th>
+            <th data-sort-default>Gemeente</th>
             <th>Contactpersoon</th>
             <th>Onderwerp</th>
             <th>Subonderwerp</th>
@@ -99,11 +114,5 @@
   </footer>
 
   <script type="module" src="js/scripts.js"></script>
-  <script>
-    // Initialize table sorting using Tablesort library
-    document.addEventListener('DOMContentLoaded', function () {
-      new Tablesort(document.getElementById('recordsTable'));
-    });
-  </script>
 </body>
 </html>

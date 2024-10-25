@@ -18,6 +18,8 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
 
+let sort;
+
 // Listen for form submission and add data to Firestore
 const form = document.getElementById('dataForm');
 form.addEventListener('submit', async (e) => {
@@ -55,7 +57,7 @@ form.addEventListener('submit', async (e) => {
 async function fetchRecords() {
   try {
     // Query records and order them by 'gemeente' alphabetically
-    const recordsQuery = query(collection(db, 'records'), orderBy('gemeente'));
+    const recordsQuery = query(collection(db, 'records'));
     const querySnapshot = await getDocs(recordsQuery); // Fetch the records from Firestore
 
     const recordsTableBody = document.getElementById('records');
@@ -79,6 +81,8 @@ async function fetchRecords() {
       `;
       recordsTableBody.innerHTML += newRow;
     });
+
+    sort.refresh();
 
     // Show delete buttons if the user is logged in
     const deleteButtons = document.querySelectorAll('.delete-button');
@@ -116,12 +120,30 @@ document.addEventListener('DOMContentLoaded', fetchRecords);
 
 // On document fully loaded
 document.addEventListener('DOMContentLoaded', () => {
+
+  // Init table sort
+  sort = new Tablesort(document.getElementById('recordsTable'));
+
+  sort.refresh();
+
+  // Init EmailJS
+  if ( emailjs ) {
+
+    emailjs.init({ publicKey: 'sYD3J6d69p4pX-r2V' });
+
+  }
+  else {
+
+    console.error('emailjs not loaded!');
+
+  }
+
   const loginButton = document.getElementById('loginButton');
   const loginModal = document.getElementById('loginModal');
   const closeModal = document.getElementById('closeModal');
   const loginForm = document.getElementById('loginForm');
   const actionColumn = document.querySelector('.action-column');
-  const collapsibleHeader = document.querySelector('.form-container h2');
+  const collapsibleHeader = document.querySelector('.form-container');
   const content = document.querySelector('.content');
   const feedbackButton = document.getElementById('requestButton');
   const feedbackModal = document.getElementById('feedbackModal');
@@ -131,6 +153,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Toggle form content visibility
   collapsibleHeader.addEventListener('click', () => {
     content.classList.toggle('closed');
+  });
+
+  content.addEventListener('click', event => {
+
+    event.stopImmediatePropagation();
+    
   });
 
   // Open login modal
@@ -228,15 +256,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Collect form data
     const description = document.getElementById('description').value;
+    const email = document.getElementById('contactEmail').value;
     const options = Array.from(document.querySelectorAll('input[name="option"]:checked')).map(checkbox => checkbox.value);
 
     // Use EmailJS or alternative method here to send the data
-    // Placeholder for now
-    alert('Feedback verstuurd: ' + description + '\nOpties: ' + options.join(', '));
+    try {
+
+      emailjs.send('service_46c00xx', 'template_xiy2tgj', {
+        description,
+        email,
+        changeRequests: options.join(', ')
+      });
+
+      alert('Dank voor uw feedback');
+
+    }
+    catch (error) {
+
+      console.error(error);
+
+      alert('Oeps, er ging iets fout! Probeer het later opnieuw.');
+      
+    }
 
     // Close modal after submission
     feedbackModal.style.display = 'none';
   });
 });
-
-// Sorting initialized through Tablesort in index.html

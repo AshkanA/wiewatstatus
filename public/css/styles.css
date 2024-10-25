@@ -9,6 +9,52 @@ body {
   flex-direction: column;
   min-height: 100vh;
   position: relative;
+  background-repeat: repeat-x;
+  background-size: 33% auto;
+}
+
+.button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.request-button {
+  background-color: #FFA500; /* Soft orange */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.request-button:hover {
+  background-color: #e59400; /* Slightly darker on hover */
+}
+
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login-button.danger {
+  background-color: #ff4444;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.login-button.danger:hover {
+  background-color: #c63434;
 }
 
 .form-container, .table-container {
@@ -29,9 +75,15 @@ body {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  overflow: hidden;
-  max-height: 0; /* Collapsed state by default */
-  transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.3s ease-out;
+  max-height: 1000px;
+  opacity: 1;
+  transition: max-height .25s ease-in-out, opacity .2s ease-in-out;
+}
+
+.content.closed {
+  max-height: 0px;
+  opacity: 0;
 }
 
 .modal {
@@ -81,14 +133,18 @@ form {
   gap: 10px;
 }
 
-input {
+input, textarea {
   box-sizing: border-box;
-  margin: 0 10px;
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 4px;
   width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
 }
 
 button {
@@ -105,26 +161,27 @@ button:hover {
   background-color: #45a049;
 }
 
-.login-button, .logout-button {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
+.table-wrapper {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-.login-button:hover, .logout-button:hover {
-  background-color: #45a049;
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.table-container {
+  width: 100%;
 }
 
 table {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   border-collapse: collapse;
   margin: 20px auto;
 }
@@ -134,12 +191,28 @@ th, td {
   padding: 15px;
   text-align: left;
   word-wrap: break-word;
-  width: 14%; /* Ensuring columns have approximately the same width */
+  width: calc(100% / 6);
 }
 
 th {
   background-color: #eaf5ea;
   font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  padding-right: 25px;
+}
+
+th::after {
+  content: '\25B2';
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  color: #888;
+  transition: transform 0.3s ease;
+}
+
+th.sort-desc::after {
+  transform: rotate(180deg);
 }
 
 td {
@@ -163,12 +236,71 @@ tr:nth-child(even) td {
   color: darkred;
 }
 
+#searchBox {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: auto;
+}
+
+#clearButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clearButton:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777; /* Subtle grey color for the footer text */
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-logo {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Feedback Modal Styles */
+#feedbackModal .modal-content {
+  width: 400px;
+  padding: 20px;
+}
+
+#feedbackForm fieldset {
+  border: none;
+  margin-top: 10px;
+}
+
+#feedbackForm legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   .form-container, .table-container {
     padding: 15px;
   }
-  input, button, th, td {
+  input, button, textarea, th, td {
     font-size: 14px;
   }
   h1, h2 {

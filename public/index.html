@@ -5,39 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wie Wat Status</title>
   <link rel="stylesheet" href="css/styles.css">
-  <!-- Firebase SDK Integration -->
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-app.js";
-    import { getFirestore, collection, addDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore.js";
-    import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-auth.js";
-
-    const firebaseConfig = {
-      apiKey: "AIzaSyCHN_JjJdkVAwtsr-brohVo28nV3-YdnSA",
-      authDomain: "wiewatstatus.firebaseapp.com",
-      projectId: "wiewatstatus",
-      storageBucket: "wiewatstatus.appspot.com",
-      messagingSenderId: "65233657379",
-      appId: "1:65233657379:web:dde1290d3a05dcf68edb96",
-      measurementId: "G-53E0YL250H"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
-    const auth = getAuth(app);
-
-    window.db = db;
-    window.collection = collection;
-    window.addDoc = addDoc;
-    window.onSnapshot = onSnapshot;
-    window.auth = auth;
-    window.signInWithEmailAndPassword = signInWithEmailAndPassword;
-    window.signOut = signOut;
-    window.onAuthStateChanged = onAuthStateChanged;
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
 </head>
 <body>
-  <button id="loginButton" class="login-button">Admin Login</button>
-  <button id="logoutButton" class="logout-button" style="display:none;">Log Out</button>
+  <div class="button-container">
+    <button class="request-button" id="requestButton">Wijzigingsverzoek</button>
+    <button class="login-button" id="loginButton">Admin Login</button>
+  </div>
 
   <!-- Login Modal -->
   <div id="loginModal" class="modal" style="display: none;">
@@ -52,9 +26,29 @@
     </div>
   </div>
 
+  <!-- Feedback Modal -->
+  <div id="feedbackModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span id="closeFeedbackModal" class="close">&times;</span>
+      <h2>Wijzigingsverzoek</h2>
+      <form id="feedbackForm">
+        <p>Vul de volgende informatie in voor uw wijzigingsverzoek:</p>
+        <textarea id="description" placeholder="Beschrijving" required></textarea>
+        <fieldset>
+          <legend>Wijzigingsopties:</legend>
+          <label><input type="checkbox" name="option" value="Verwijderen"> Verwijderen</label>
+          <label><input type="checkbox" name="option" value="Contactpersoon"> Contactpersoon</label>
+          <label><input type="checkbox" name="option" value="Bron"> Bron</label>
+          <label><input type="checkbox" name="option" value="Status"> Status</label>
+        </fieldset>
+        <button type="submit">Verstuur Verzoek</button>
+      </form>
+    </div>
+  </div>
+
   <div class="form-container">
     <h2>Voeg een mapping toe</h2>
-    <div class="content" style="display: none;">
+    <div class="content closed">
       <form id="dataForm">
         <!-- Existing fields -->
         <input type="text" id="gemeente" placeholder="Gemeente" required>
@@ -71,100 +65,44 @@
       </form>
     </div>
   </div>
-  
-  <div class="table-container">
-    <h2>Wie Wat Status</h2> 
-    <table id="recordsTable">
-      <thead>
-        <tr>
-          <th>Gemeente</th>
-          <th>Contactpersoon</th>
-          <th>Onderwerp</th>
-          <th>Subonderwerp</th>
-          <th>Bron</th>
-          <th>Status</th>
-          <th class="action-column" style="display: none;">Actie</th>
-        </tr>
-      </thead>
-      <tbody id="records"></tbody>
-    </table>
+
+  <div class="table-wrapper">
+    <div class="search-container">
+      <input type="text" id="searchBox" placeholder="Zoeken">
+      <button id="clearButton">Wissen</button>
+    </div>
+    <div class="table-container">
+      <h2>Wie Wat Status</h2>
+      <table id="recordsTable">
+        <thead>
+          <tr>
+            <th>Gemeente</th>
+            <th>Contactpersoon</th>
+            <th>Onderwerp</th>
+            <th>Subonderwerp</th>
+            <th>Bron</th>
+            <th>Status</th>
+            <th class="action-column" style="display: none;">Actie</th>
+          </tr>
+        </thead>
+        <tbody id="records"></tbody>
+      </table>
+    </div>
   </div>
+
+  <footer class="footer">
+    <p>Gemeentelijke Gegevensmodel (GGM) wie wat status app | Ashkan Ashkpour | 2024
+      <a href="https://github.com/AshkanA/wiewatstatus" target="_blank">
+        <img src="img/github-mark.png" alt="GitHub" class="github-logo">
+      </a>
+    </p>
+  </footer>
 
   <script type="module" src="js/scripts.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const collapsibleHeader = document.querySelector('.form-container h2');
-      const content = document.querySelector('.content');
-      const loginButton = document.getElementById('loginButton');
-      const logoutButton = document.getElementById('logoutButton');
-      const loginModal = document.getElementById('loginModal');
-      const closeModal = document.getElementById('closeModal');
-      const loginForm = document.getElementById('loginForm');
-      const actionColumn = document.querySelector('.action-column');
-
-      // Toggle form content visibility
-      collapsibleHeader.addEventListener('click', () => {
-        const isVisible = content.style.display === 'block';
-        content.style.display = isVisible ? 'none' : 'block';
-      });
-
-      // Open login modal
-      loginButton.addEventListener('click', () => {
-        console.log('Opening login modal...');
-        loginModal.style.display = 'block';
-      });
-
-      // Close the modal
-      closeModal.addEventListener('click', () => {
-        loginModal.style.display = 'none';
-      });
-
-      // Handle login form submission
-      loginForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const email = document.getElementById('loginEmail').value;
-        const password = document.getElementById('loginPassword').value;
-
-        signInWithEmailAndPassword(auth, email, password)
-          .then((userCredential) => {
-            // Successfully logged in
-            loginModal.style.display = 'none';
-            loginButton.style.display = 'none';
-            logoutButton.style.display = 'inline-block';
-            actionColumn.style.display = 'table-cell';
-            
-          })
-          .catch((error) => {
-            console.error('Error signing in: ', error);
-            alert('Failed to log in. Please check your credentials.');
-          });
-      });
-
-      // Handle logout button click
-      logoutButton.addEventListener('click', () => {
-        console.log('Logging out...');
-        signOut(auth).then(() => {
-          
-          loginButton.style.display = 'inline-block';
-          logoutButton.style.display = 'none';
-          actionColumn.style.display = 'none';
-        }).catch((error) => {
-          console.error('Error logging out: ', error);
-        });
-      });
-
-      // Listen for auth state changes
-      onAuthStateChanged(auth, (user) => {
-        if (user) {
-          loginButton.style.display = 'none';
-          logoutButton.style.display = 'inline-block';
-          actionColumn.style.display = 'table-cell';
-        } else {
-          loginButton.style.display = 'inline-block';
-          logoutButton.style.display = 'none';
-          actionColumn.style.display = 'none';
-        }
-      });
+    // Initialize table sorting using Tablesort library
+    document.addEventListener('DOMContentLoaded', function () {
+      new Tablesort(document.getElementById('recordsTable'));
     });
   </script>
 </body>

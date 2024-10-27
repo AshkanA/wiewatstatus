@@ -358,6 +358,12 @@ tr:nth-child(even) td {
   width: 100%;
 }
 
+/* Ensure specificity and apply hover effect directly on table rows */
+#recordsTable tbody tr:hover td {
+  background-color: #f2faf2 !important; /* Use any color you prefer */
+}
+
+
 /* Responsive Design */
 @media (max-width: 600px) {
   .form-container, .table-container {

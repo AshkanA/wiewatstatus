@@ -369,4 +369,7 @@ tr:nth-child(even) td {
   h1, h2 {
     font-size: 24px;
   }
+  .brand {
+    display: none;
+  }
 }

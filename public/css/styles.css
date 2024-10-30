@@ -90,7 +90,8 @@ header .brand {
   text-align: center;
   margin-top: 10px;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 .table-container h2 {
@@ -358,11 +359,28 @@ tr:nth-child(even) td {
   width: 100%;
 }
 
-/* Ensure specificity and apply hover effect directly on table rows */
+/* Hover and Edit Indicator Styles */
 #recordsTable tbody tr:hover td {
-  background-color: #f2faf2 !important; /* Use any color you prefer */
+  background-color: #f2faf2 !important; /* Row highlight on hover */
 }
 
+td.editable:hover {
+  background-color: #eaf5ea; /* Lighter shade on editable cells */
+  cursor: text;
+}
+
+td.editable input {
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+td.editable input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
 
 /* Responsive Design */
 @media (max-width: 600px) {

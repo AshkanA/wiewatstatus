@@ -1,0 +1,4302 @@
+{
+    "0": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Datadistributie"
+    },
+    "1": {
+        "Leverancier": "Centric",
+        "Bron": "Centric Objectregistratie / (Key2)BAG"
+    },
+    "2": {
+        "Leverancier": "Centric",
+        "Bron": "Centric Burgerzaken"
+    },
+    "3": {
+        "Leverancier": "Centric",
+        "Bron": "Key2VOA"
+    },
+    "4": {
+        "Leverancier": "Centric",
+        "Bron": "Centric Begraven"
+    },
+    "5": {
+        "Leverancier": "Enable U",
+        "Bron": "OpenTunnel"
+    },
+    "6": {
+        "Leverancier": "Splitvision",
+        "Bron": "Governance Controller"
+    },
+    "7": {
+        "Leverancier": "Splitvision",
+        "Bron": "I-Controler"
+    },
+    "8": {
+        "Leverancier": "roxit",
+        "Bron": "Rx.Front"
+    },
+    "9": {
+        "Leverancier": "roxit",
+        "Bron": "Roxit KCS"
+    },
+    "10": {
+        "Leverancier": "ilionx",
+        "Bron": "Onegov"
+    },
+    "11": {
+        "Leverancier": "Centric",
+        "Bron": "Key2GBA-V"
+    },
+    "12": {
+        "Leverancier": "Enable U",
+        "Bron": "Enable-U 2Orchestrate"
+    },
+    "13": {
+        "Leverancier": "Enable U",
+        "Bron": "Enable-U 2Secure"
+    },
+    "14": {
+        "Leverancier": "Enable U",
+        "Bron": "Enable-U 2See"
+    },
+    "15": {
+        "Leverancier": "Enable U",
+        "Bron": "Enable-U Digikoppeling"
+    },
+    "16": {
+        "Leverancier": "Enable U",
+        "Bron": "Enable-U Digimelding"
+    },
+    "17": {
+        "Leverancier": "Ordina",
+        "Bron": "BAG Extract Loader"
+    },
+    "18": {
+        "Leverancier": "Atabix",
+        "Bron": "TriplEforms\u00ae"
+    },
+    "19": {
+        "Leverancier": "Atabix",
+        "Bron": "KIM\u00ae"
+    },
+    "20": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "Decos D5"
+    },
+    "21": {
+        "Leverancier": "OIS",
+        "Bron": "OIS Document Management"
+    },
+    "22": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite RSGB Gegevensmagazijn"
+    },
+    "23": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite Gemeentelijke Servicebus (Berichtenbuffer en scheduler)"
+    },
+    "24": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite RGBZ Zakenmagazijn"
+    },
+    "25": {
+        "Leverancier": "Antea Group",
+        "Bron": "GBI"
+    },
+    "26": {
+        "Leverancier": "OIS",
+        "Bron": "OIS Proces Management"
+    },
+    "27": {
+        "Leverancier": "Templafy",
+        "Bron": "iWRITER"
+    },
+    "28": {
+        "Leverancier": "Seneca B.V.",
+        "Bron": "Seneca E-Loket Suite v3"
+    },
+    "29": {
+        "Leverancier": "Seneca B.V.",
+        "Bron": "Seneca Smartsite Toptaken website & intranet"
+    },
+    "30": {
+        "Leverancier": "Seneca B.V.",
+        "Bron": "iGGIS  - Gemeente App"
+    },
+    "31": {
+        "Leverancier": "Wolters Kluwer Schulinck",
+        "Bron": "Schulinck In-Form"
+    },
+    "32": {
+        "Leverancier": "Stratech",
+        "Bron": "Stratech-CVS"
+    },
+    "33": {
+        "Leverancier": "Visma Circle",
+        "Bron": "Verseon E-Suite"
+    },
+    "34": {
+        "Leverancier": "Eviden",
+        "Bron": "Atos e-Suite"
+    },
+    "35": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron BAG"
+    },
+    "36": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron BGT"
+    },
+    "37": {
+        "Leverancier": "Procura",
+        "Bron": "Procura vrijBRP"
+    },
+    "38": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron WOZ Registratie"
+    },
+    "39": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGeomagazijn"
+    },
+    "40": {
+        "Leverancier": "BLITTS BV",
+        "Bron": "BLITTS"
+    },
+    "41": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-WOZ"
+    },
+    "42": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence DataDistributie  (tot 2023)"
+    },
+    "43": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence eFormulieren Creator (tot 2015)"
+    },
+    "44": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence KlantContactSysteem (tot 2015)"
+    },
+    "45": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence ManagementRapportages (tot 2015)"
+    },
+    "46": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence MidOffice (tot 2015)"
+    },
+    "47": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence Digitaal Loket (tot 2015)"
+    },
+    "48": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence Zaaksysteem (tot 2015)"
+    },
+    "49": {
+        "Leverancier": "Capgemini",
+        "Bron": "GFS/EnterpriseOne "
+    },
+    "50": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-BAG"
+    },
+    "51": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor BAG"
+    },
+    "52": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Gemeentelijke Servicebus"
+    },
+    "53": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Makelaar Gegevens"
+    },
+    "54": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Makelaar Gegevensmagazijn"
+    },
+    "55": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Makelaar Landelijke Voorziening"
+    },
+    "56": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Makelaar Services"
+    },
+    "57": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Makelaar Zakenmagazijn"
+    },
+    "58": {
+        "Leverancier": "BCT",
+        "Bron": "Liber Behandelaar- en Baliemedewerkerportaal"
+    },
+    "59": {
+        "Leverancier": "roxit",
+        "Bron": "Squit XO"
+    },
+    "60": {
+        "Leverancier": "roxit",
+        "Bron": "Squit2Go"
+    },
+    "61": {
+        "Leverancier": "Auxilium",
+        "Bron": "Maatwerk mobiele applicaties"
+    },
+    "62": {
+        "Leverancier": "Auxilium",
+        "Bron": "Maatwerk webapplicaties"
+    },
+    "63": {
+        "Leverancier": "Progresity",
+        "Bron": "MeldDesk"
+    },
+    "64": {
+        "Leverancier": "Desyde",
+        "Bron": "Permit"
+    },
+    "65": {
+        "Leverancier": "roxit",
+        "Bron": "Dezta IMRO Tekenen"
+    },
+    "66": {
+        "Leverancier": "roxit",
+        "Bron": "Dezta Plan"
+    },
+    "67": {
+        "Leverancier": "roxit",
+        "Bron": "Dezta RO Viewer"
+    },
+    "68": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "GouwBasis"
+    },
+    "69": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw6 BAG"
+    },
+    "70": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw7 BAG"
+    },
+    "71": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw Belastingen"
+    },
+    "72": {
+        "Leverancier": "Centric",
+        "Bron": "Centric Objectregistratie / (Key2)Percelen"
+    },
+    "73": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw5 Belastingen"
+    },
+    "74": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Adressen en Gebouwen"
+    },
+    "75": {
+        "Leverancier": "Sweco Nederland B.V.",
+        "Bron": "dg DIALOG BGT"
+    },
+    "76": {
+        "Leverancier": "Sweco Nederland B.V.",
+        "Bron": "GeoWeb"
+    },
+    "77": {
+        "Leverancier": "VendorLink",
+        "Bron": "VendorLink - Leveranciersmanagement"
+    },
+    "78": {
+        "Leverancier": "Solviteers",
+        "Bron": "iw\u00b3 cli\u00ebntvolgsysteem"
+    },
+    "79": {
+        "Leverancier": "Solviteers",
+        "Bron": "Vacaturevinder"
+    },
+    "80": {
+        "Leverancier": "Solviteers",
+        "Bron": "WIZportaal"
+    },
+    "81": {
+        "Leverancier": "xxllnc",
+        "Bron": "Zaaksysteem.nl"
+    },
+    "82": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Klantcontact"
+    },
+    "83": {
+        "Leverancier": "xxllnc",
+        "Bron": "VRiS Berichtenverkeer"
+    },
+    "84": {
+        "Leverancier": "Centric",
+        "Bron": "Conductor"
+    },
+    "85": {
+        "Leverancier": "Gemboxx",
+        "Bron": "Burger- en BedrijvenBoxx"
+    },
+    "86": {
+        "Leverancier": "Centric",
+        "Bron": "Gegevensmagazijn"
+    },
+    "87": {
+        "Leverancier": "Centric",
+        "Bron": "Zakenmagazijn"
+    },
+    "88": {
+        "Leverancier": "Esri",
+        "Bron": "GeoWeb"
+    },
+    "89": {
+        "Leverancier": "Esri",
+        "Bron": "GeoBGT"
+    },
+    "90": {
+        "Leverancier": "Mozard",
+        "Bron": "Mozard Suite"
+    },
+    "91": {
+        "Leverancier": "Stratech",
+        "Bron": "Stratech Subsidiebeheerapplicatie"
+    },
+    "92": {
+        "Leverancier": "Stratech",
+        "Bron": "Stratech Perspectief"
+    },
+    "93": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence Beheerportaal (tot 2015)"
+    },
+    "94": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence Intelligente eFormulieren (tot 2015)"
+    },
+    "95": {
+        "Leverancier": "Esri",
+        "Bron": "ArcGIS Online"
+    },
+    "96": {
+        "Leverancier": "xential",
+        "Bron": "Xential"
+    },
+    "97": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedPlan"
+    },
+    "98": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NGdW"
+    },
+    "99": {
+        "Leverancier": "Cadac Group",
+        "Bron": "GEOCAD"
+    },
+    "100": {
+        "Leverancier": "Cadac Group",
+        "Bron": "IGOS"
+    },
+    "101": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedBrowser"
+    },
+    "102": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGeoservices"
+    },
+    "103": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedInwinning"
+    },
+    "104": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedView Pro"
+    },
+    "105": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Middelen"
+    },
+    "106": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Innen"
+    },
+    "107": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedWion"
+    },
+    "108": {
+        "Leverancier": "Cadac Group",
+        "Bron": "TopoCAD"
+    },
+    "109": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Belastingen en Kadaster"
+    },
+    "110": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedInfra suite"
+    },
+    "111": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Managementinformatie"
+    },
+    "112": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Waarderen"
+    },
+    "113": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Kadaster"
+    },
+    "114": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Zaakafhandeling"
+    },
+    "115": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "Cipers iSeries"
+    },
+    "116": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "Cipers Unix"
+    },
+    "117": {
+        "Leverancier": "roxit",
+        "Bron": "RoPlan"
+    },
+    "118": {
+        "Leverancier": "roxit",
+        "Bron": "RoTekst"
+    },
+    "119": {
+        "Leverancier": "roxit",
+        "Bron": "RoView"
+    },
+    "120": {
+        "Leverancier": "Gemboxx",
+        "Bron": "ZakenBoxx"
+    },
+    "121": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Beperkingen"
+    },
+    "122": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron WKPB"
+    },
+    "123": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron BRK"
+    },
+    "124": {
+        "Leverancier": "SIMgroep",
+        "Bron": "RaadDigitaal (Uitgefaseerd)"
+    },
+    "125": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMapp MijnOrganisatie (Uitgefaseerd)"
+    },
+    "126": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMbri, bestuurs- en raadsinformatiesysteem (End of Life)"
+    },
+    "127": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMeForm (end of life)"
+    },
+    "128": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMkcr (End of Life)"
+    },
+    "129": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMkluis (End of Life)"
+    },
+    "130": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMloket"
+    },
+    "131": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMloket en SIMregelgeving (End of Life)"
+    },
+    "132": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMsite 3, Content Management Systeem (End of Life)"
+    },
+    "133": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-WKPB"
+    },
+    "134": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-LOKET"
+    },
+    "135": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Front"
+    },
+    "136": {
+        "Leverancier": "The People Group",
+        "Bron": "C-SAM beheer BGT"
+    },
+    "137": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Financien"
+    },
+    "138": {
+        "Leverancier": "Sweco Nederland B.V.",
+        "Bron": "Veras"
+    },
+    "139": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Samenlevingszaken"
+    },
+    "140": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Onderwijs"
+    },
+    "141": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Makelaar Services/Zaaktypecatalogus"
+    },
+    "142": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Makelaar Services/Zaak-DMS Services"
+    },
+    "143": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Klant Contact Centrum/KCS"
+    },
+    "144": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision WKPB"
+    },
+    "145": {
+        "Leverancier": "AlterNET",
+        "Bron": "TYPO3 Gemeentekit"
+    },
+    "146": {
+        "Leverancier": "AlterNET",
+        "Bron": "GeoCMS"
+    },
+    "147": {
+        "Leverancier": "iBabs",
+        "Bron": "iBabs"
+    },
+    "148": {
+        "Leverancier": "iBabs",
+        "Bron": "BABS - Bestuurlijk activiteiten bewakingsysteem (nu iBabs)"
+    },
+    "149": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra Bestandsanalyse"
+    },
+    "150": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra ProfessionalCenter"
+    },
+    "151": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra Klantmanagement"
+    },
+    "152": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra Loonwaarde"
+    },
+    "153": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra TalentCenter"
+    },
+    "154": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra Vacature"
+    },
+    "155": {
+        "Leverancier": "KPN Lokale Overheid",
+        "Bron": "DocZend"
+    },
+    "156": {
+        "Leverancier": "KPN Lokale Overheid",
+        "Bron": "Klic Service"
+    },
+    "157": {
+        "Leverancier": "KPN Lokale Overheid",
+        "Bron": "eHerkenningsmakelaar"
+    },
+    "158": {
+        "Leverancier": "KPN Lokale Overheid",
+        "Bron": "Generieke Berichten Platform"
+    },
+    "159": {
+        "Leverancier": "KPN Lokale Overheid",
+        "Bron": "Nerve Centre"
+    },
+    "160": {
+        "Leverancier": "Unisys",
+        "Bron": "uMeet"
+    },
+    "161": {
+        "Leverancier": "BCT",
+        "Bron": "Corsa"
+    },
+    "162": {
+        "Leverancier": "Unisys",
+        "Bron": "uWork"
+    },
+    "163": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-Bezwaar"
+    },
+    "164": {
+        "Leverancier": "DataB. Mailservice",
+        "Bron": "MultiChannel"
+    },
+    "165": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw7 WOZ"
+    },
+    "166": {
+        "Leverancier": "Unisys",
+        "Bron": "InfoImage"
+    },
+    "167": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "Cipers Kwaliteit"
+    },
+    "168": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw5 WOZ"
+    },
+    "169": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Operationele Overzichten (JBOSS)"
+    },
+    "170": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Integraal Raadplegen (JBOSS)"
+    },
+    "171": {
+        "Leverancier": "NTREE Solutions",
+        "Bron": "n-Office"
+    },
+    "172": {
+        "Leverancier": "NTREE Solutions",
+        "Bron": "n-Digisign"
+    },
+    "173": {
+        "Leverancier": "NTREE Solutions",
+        "Bron": "n-Office Server"
+    },
+    "174": {
+        "Leverancier": "NTREE Solutions",
+        "Bron": "n-Adres"
+    },
+    "175": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedBRK"
+    },
+    "176": {
+        "Leverancier": "MUG Ingenieursbureau",
+        "Bron": "GeoTopo"
+    },
+    "177": {
+        "Leverancier": "Wowww",
+        "Bron": "OWMS Drupal aansluiting overheid.nl"
+    },
+    "178": {
+        "Leverancier": "Planviewer",
+        "Bron": "Planviewer"
+    },
+    "179": {
+        "Leverancier": "xxllnc",
+        "Bron": "Vergunningen Informatie Systeem (VIS)"
+    },
+    "180": {
+        "Leverancier": "xxllnc",
+        "Bron": "Snelbalie Vergunningen"
+    },
+    "181": {
+        "Leverancier": "Stadsbeheer b.v.",
+        "Bron": "SBA Forms"
+    },
+    "182": {
+        "Leverancier": "Stadsbeheer b.v.",
+        "Bron": "SBA-Mobile"
+    },
+    "183": {
+        "Leverancier": "Royal HaskoningDHV",
+        "Bron": "DHV Beheerpakketten"
+    },
+    "184": {
+        "Leverancier": "Royal HaskoningDHV",
+        "Bron": "Cortex"
+    },
+    "185": {
+        "Leverancier": "Royal HaskoningDHV",
+        "Bron": "Cortex GeoView"
+    },
+    "186": {
+        "Leverancier": "DG Groep",
+        "Bron": "gisib"
+    },
+    "187": {
+        "Leverancier": "Genetics",
+        "Bron": "PowerBIS"
+    },
+    "188": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Debiteuren"
+    },
+    "189": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Schuldhulpverlening"
+    },
+    "190": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Hoogwaardig handhaven"
+    },
+    "191": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Leerlingenvervoer"
+    },
+    "192": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Rapportage (Rechtmatigheid / Participatiewet)"
+    },
+    "193": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Sma"
+    },
+    "194": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "EBB-Zorg"
+    },
+    "195": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Informatie"
+    },
+    "196": {
+        "Leverancier": "GISkit",
+        "Bron": "BAG"
+    },
+    "197": {
+        "Leverancier": "GISkit",
+        "Bron": "GISkit WKPB"
+    },
+    "198": {
+        "Leverancier": "Visiedosis.Uninova",
+        "Bron": "Documentmanagementsysteem VisieDosis"
+    },
+    "199": {
+        "Leverancier": "Genetics",
+        "Bron": "PowerBrowser"
+    },
+    "200": {
+        "Leverancier": "Metaobjects",
+        "Bron": "JVS (Leerplicht, RMC en Leerlingenvervoer)"
+    },
+    "201": {
+        "Leverancier": "roxit",
+        "Bron": "Green Valley Zaaksysteem"
+    },
+    "202": {
+        "Leverancier": "Esri",
+        "Bron": "GeoSticker"
+    },
+    "203": {
+        "Leverancier": "SmartDocuments Nederland B.V.",
+        "Bron": "SmartDocuments"
+    },
+    "204": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Parkeren / Centric Parkeren (SaaS)"
+    },
+    "205": {
+        "Leverancier": "Esri",
+        "Bron": "ArcGIS Desktop"
+    },
+    "206": {
+        "Leverancier": "Splitvision",
+        "Bron": "SinglePoint-for-all"
+    },
+    "207": {
+        "Leverancier": "Sweco Nederland B.V.",
+        "Bron": "Obsurv"
+    },
+    "208": {
+        "Leverancier": "Sweco Nederland B.V.",
+        "Bron": "GREX10"
+    },
+    "209": {
+        "Leverancier": "One Fox",
+        "Bron": "CMIS 1.0 Adapter for OpenText eDOCS"
+    },
+    "210": {
+        "Leverancier": "roxit",
+        "Bron": "Squit iBis"
+    },
+    "211": {
+        "Leverancier": "GeoTax",
+        "Bron": "UDS BAG"
+    },
+    "212": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor Wkpb"
+    },
+    "213": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor WIZ"
+    },
+    "214": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor Dienstverlening"
+    },
+    "215": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor BAG-LV"
+    },
+    "216": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor Gegevensbeheer"
+    },
+    "217": {
+        "Leverancier": "Synaxion",
+        "Bron": "BI rapportages BAG"
+    },
+    "218": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron WOZ Analyse"
+    },
+    "219": {
+        "Leverancier": "Transfer Solutions",
+        "Bron": "C-SAM Magazijn"
+    },
+    "220": {
+        "Leverancier": "UNIT4",
+        "Bron": "UNIT4 Financials (voorheen Coda Financials)"
+    },
+    "221": {
+        "Leverancier": "Emergo Systems",
+        "Bron": "COMPAS"
+    },
+    "222": {
+        "Leverancier": "JCC Software",
+        "Bron": "G-BOS (uitgefaseerd. Zie JCC Klantgeleiding)"
+    },
+    "223": {
+        "Leverancier": "JCC Software",
+        "Bron": "G-KAS (uitgefaseerd, zie JCC betalen)"
+    },
+    "224": {
+        "Leverancier": "JCC Software",
+        "Bron": "G-ROOSTER (uitgefaseerd, zie JCC-Personeelsplanning)"
+    },
+    "225": {
+        "Leverancier": "JCC Software",
+        "Bron": "JCC-Afspraken"
+    },
+    "226": {
+        "Leverancier": "JCC Software",
+        "Bron": "TJOONER"
+    },
+    "227": {
+        "Leverancier": "Unisys",
+        "Bron": "CMIS koppeling Zaak-DMS"
+    },
+    "228": {
+        "Leverancier": "OIS",
+        "Bron": "OIS DigiForm R4"
+    },
+    "229": {
+        "Leverancier": "Centric",
+        "Bron": "Suite4Werk en Inkomen"
+    },
+    "230": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMform (einde ondersteuning)"
+    },
+    "231": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMform"
+    },
+    "232": {
+        "Leverancier": "GISkit",
+        "Bron": "GISkit GDS kadaster"
+    },
+    "233": {
+        "Leverancier": "GISkit",
+        "Bron": "BRK Datamanager"
+    },
+    "234": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "Makelaarsuite"
+    },
+    "235": {
+        "Leverancier": "eformity",
+        "Bron": "Document Builder Server"
+    },
+    "236": {
+        "Leverancier": "Simac Obec BV",
+        "Bron": "Central Station"
+    },
+    "237": {
+        "Leverancier": "Xlab Cloud Services B.V.",
+        "Bron": "KeDo"
+    },
+    "238": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedBGT"
+    },
+    "239": {
+        "Leverancier": "roxit",
+        "Bron": "RoConsolideer"
+    },
+    "240": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedView GIS"
+    },
+    "241": {
+        "Leverancier": "roxit",
+        "Bron": "Rx.Enterprise ( voorheen InProces)"
+    },
+    "242": {
+        "Leverancier": "GISkit",
+        "Bron": "BasisKaart"
+    },
+    "243": {
+        "Leverancier": "GISkit",
+        "Bron": "IMGeo Datamanager"
+    },
+    "244": {
+        "Leverancier": "GISkit",
+        "Bron": "PlanKaart"
+    },
+    "245": {
+        "Leverancier": "GISkit",
+        "Bron": "PlanTekst"
+    },
+    "246": {
+        "Leverancier": "GISkit",
+        "Bron": "GML Viewer"
+    },
+    "247": {
+        "Leverancier": "GISkit",
+        "Bron": "Publiceer IMRO 2012"
+    },
+    "248": {
+        "Leverancier": "Groenestein Beheersoftware",
+        "Bron": "GB Beheer"
+    },
+    "249": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Trajecten"
+    },
+    "250": {
+        "Leverancier": "Centric",
+        "Bron": "Suite4Sociale Regie"
+    },
+    "251": {
+        "Leverancier": "Royal HaskoningDHV",
+        "Bron": "Castor"
+    },
+    "252": {
+        "Leverancier": "UNIT4",
+        "Bron": "UNIT4 Decade"
+    },
+    "253": {
+        "Leverancier": "Centric",
+        "Bron": "Waarderen (vervallen pakketversies)"
+    },
+    "254": {
+        "Leverancier": "Planviewer",
+        "Bron": "Expertviewer"
+    },
+    "255": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "Intake Kompas"
+    },
+    "256": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "WebNext"
+    },
+    "257": {
+        "Leverancier": "Proud Nerds",
+        "Bron": "TYPO3"
+    },
+    "258": {
+        "Leverancier": "Riodesk",
+        "Bron": "Kikker - Veelzijdig GIS instrument voor het slim, effici\u00ebnt en makkelijk beheer van de openbare ruimte ! "
+    },
+    "259": {
+        "Leverancier": "Riodesk",
+        "Bron": "PUB-DR Pomp Unit Beheer-Druk Riolering ( volgens BRL-K14020/01)"
+    },
+    "260": {
+        "Leverancier": "AlterNET",
+        "Bron": "Social Intranet"
+    },
+    "261": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GEMMA eFormulieren"
+    },
+    "262": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. cms enterprise - formulierenserver"
+    },
+    "263": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. vergaderen (iOS app)"
+    },
+    "264": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. app - android"
+    },
+    "265": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "JOIN Zaaktypen"
+    },
+    "266": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "JOIN Agenderen"
+    },
+    "267": {
+        "Leverancier": "Wolters Kluwer Schulinck",
+        "Bron": "Schulinck In-Spect Herberekenen"
+    },
+    "268": {
+        "Leverancier": "Wolters Kluwer Schulinck",
+        "Bron": "Schulinck In-Spect Dossier"
+    },
+    "269": {
+        "Leverancier": "Wolters Kluwer Schulinck",
+        "Bron": "Schulinck In-Spect Signaal"
+    },
+    "270": {
+        "Leverancier": "Wolters Kluwer Schulinck",
+        "Bron": "Schulinck In-Form | ProfPortaal"
+    },
+    "271": {
+        "Leverancier": "Wolters Kluwer Schulinck",
+        "Bron": "DKD Berichten Logging"
+    },
+    "272": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite Optellen"
+    },
+    "273": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite Vermenigvuldigen"
+    },
+    "274": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite LV BAG-bg0310 converter"
+    },
+    "275": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Subsidies"
+    },
+    "276": {
+        "Leverancier": "Stipter",
+        "Bron": "Maatschappelijk Ondersteuningsplatform (MO-platform) [OUD]"
+    },
+    "277": {
+        "Leverancier": "Topicus",
+        "Bron": "Gidso Regie"
+    },
+    "278": {
+        "Leverancier": "xxllnc",
+        "Bron": "RIS Jeugd"
+    },
+    "279": {
+        "Leverancier": "xxllnc",
+        "Bron": "RIS Sociaal Team"
+    },
+    "280": {
+        "Leverancier": "xxllnc",
+        "Bron": "RIS Vroeg Er op af"
+    },
+    "281": {
+        "Leverancier": "xxllnc",
+        "Bron": "RIS WMO"
+    },
+    "282": {
+        "Leverancier": "xxllnc",
+        "Bron": "RIS Zorg & Overlast"
+    },
+    "283": {
+        "Leverancier": "Gemboxx",
+        "Bron": "CommunicatieBoxx"
+    },
+    "284": {
+        "Leverancier": "Gemboxx",
+        "Bron": "RegieBoxx"
+    },
+    "285": {
+        "Leverancier": "Gemboxx",
+        "Bron": "Gemeentelijke Service Bus"
+    },
+    "286": {
+        "Leverancier": "Elkander",
+        "Bron": "Jalp (inwonersportaal sociaal domein)"
+    },
+    "287": {
+        "Leverancier": "Elkander",
+        "Bron": "CJG plus "
+    },
+    "288": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "iSamenleving"
+    },
+    "289": {
+        "Leverancier": "Centric",
+        "Bron": "PIMS@all"
+    },
+    "290": {
+        "Leverancier": "xxllnc",
+        "Bron": "MensCentraal"
+    },
+    "291": {
+        "Leverancier": "KPN Lokale Overheid",
+        "Bron": "Digitale Deurmat CORV"
+    },
+    "292": {
+        "Leverancier": "Greenpoint Advies",
+        "Bron": "Greenpoint"
+    },
+    "293": {
+        "Leverancier": "Elkander",
+        "Bron": "Invis sociale kaart"
+    },
+    "294": {
+        "Leverancier": "Royal HaskoningDHV",
+        "Bron": "OVMS"
+    },
+    "295": {
+        "Leverancier": "Procura",
+        "Bron": "Procura Verkiezingen"
+    },
+    "296": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. cms enterprise"
+    },
+    "297": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. digitale dienstverlening"
+    },
+    "298": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. koppelvlak"
+    },
+    "299": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. koppelvlak GBA"
+    },
+    "300": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "TabSign"
+    },
+    "301": {
+        "Leverancier": "AlterNET",
+        "Bron": "PDC met VAC"
+    },
+    "302": {
+        "Leverancier": "AlterNET",
+        "Bron": "GVOP"
+    },
+    "303": {
+        "Leverancier": "AlterNET",
+        "Bron": "e-HRM Suite"
+    },
+    "304": {
+        "Leverancier": "AlterNET",
+        "Bron": "Digitaal Loket"
+    },
+    "305": {
+        "Leverancier": "Energiemissie B.V.",
+        "Bron": "Energiemonitor voor gemeentelijke energiebeheer, energie-inkoop, factuurcontrole, verbruik- en energiemanagement"
+    },
+    "306": {
+        "Leverancier": "Metafoor Vastgoed en Software",
+        "Bron": "VastgoedBeheerSysteem VBSonline\u00ae"
+    },
+    "307": {
+        "Leverancier": "C3Group",
+        "Bron": "Applicatie - Human Talent Matching"
+    },
+    "308": {
+        "Leverancier": "C3Group",
+        "Bron": "SMARTonPEOPLE Software Suite"
+    },
+    "309": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron Inwinning"
+    },
+    "310": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw6 Wkpb"
+    },
+    "311": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw5 Taxatie"
+    },
+    "312": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "iBurgerzaken"
+    },
+    "313": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Bereken uw recht Plus (online aanvragen minimaregelingen en afhandeling)."
+    },
+    "314": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Bereken uw recht (inzicht recht van burger op landelijke regelingen)."
+    },
+    "315": {
+        "Leverancier": "Stimulansz",
+        "Bron": "KiC, Kwaliteit in Controle (kwaliteit, sturing en verantwoording)."
+    },
+    "316": {
+        "Leverancier": "Techview assist bv",
+        "Bron": "Techview beheer openbare ruimte"
+    },
+    "317": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Risicoscan (implementatie Wmo/AWBZ, Participatiewet en Jeugdzorg)."
+    },
+    "318": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Proceseditor (processen beschrijvingen)."
+    },
+    "319": {
+        "Leverancier": "Stimulansz",
+        "Bron": "z Wmo App (ondersteuning keukentafelgesprek)"
+    },
+    "320": {
+        "Leverancier": "Stimulansz",
+        "Bron": "WiSZ (overzicht managementinformatie W&I)."
+    },
+    "321": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Formatiecalculatiemodel (berekening formatie)."
+    },
+    "322": {
+        "Leverancier": "HTA Software",
+        "Bron": "BAM 2020 Online"
+    },
+    "323": {
+        "Leverancier": "HTA Software",
+        "Bron": "CBM 2020 Online"
+    },
+    "324": {
+        "Leverancier": "HTA Software",
+        "Bron": "AVM 2020 Online"
+    },
+    "325": {
+        "Leverancier": "Planviewer",
+        "Bron": "RO viewer"
+    },
+    "326": {
+        "Leverancier": "Planviewer",
+        "Bron": "Planviewer Uploadaccount"
+    },
+    "327": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Thesaurus Zorg en Welzijn (trefwoorden, woordenboek en synoniemen). "
+    },
+    "328": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Effectmonitor (voor sociaal domein: Wmo, Participatie- en Jeugdwet)."
+    },
+    "329": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Divosa Benchmark Werk en Inkomen"
+    },
+    "330": {
+        "Leverancier": "MY-LEX",
+        "Bron": "MY-LEX Overheid\u00ae"
+    },
+    "331": {
+        "Leverancier": "MY-LEX",
+        "Bron": "MY-LEX Maps\u00ae"
+    },
+    "332": {
+        "Leverancier": "MY-LEX",
+        "Bron": "MY-LEX Intranet\u00ae"
+    },
+    "333": {
+        "Leverancier": "MY-LEX",
+        "Bron": "MY-LEX WebFinder\u00ae"
+    },
+    "334": {
+        "Leverancier": "HTA Software",
+        "Bron": "GEM 2020 Online"
+    },
+    "335": {
+        "Leverancier": "HTA Software",
+        "Bron": "RBM 2020 Online"
+    },
+    "336": {
+        "Leverancier": "Bakker & Spees",
+        "Bron": "B&S VISI"
+    },
+    "337": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-AXXERION"
+    },
+    "338": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Zorg"
+    },
+    "339": {
+        "Leverancier": "Bakker & Spees",
+        "Bron": "B&S Civiel"
+    },
+    "340": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Geo"
+    },
+    "341": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht module Schuldhulp"
+    },
+    "342": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht module Werk en participatie"
+    },
+    "343": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht module Wmo "
+    },
+    "344": {
+        "Leverancier": "Nazca Solutions",
+        "Bron": "Nazca-i Asbestsysteem"
+    },
+    "345": {
+        "Leverancier": "Nazca Solutions",
+        "Bron": "Nazca-i Bodem"
+    },
+    "346": {
+        "Leverancier": "Genetics",
+        "Bron": "PowerForms"
+    },
+    "347": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMintra"
+    },
+    "348": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMsocial intranet"
+    },
+    "349": {
+        "Leverancier": "UNIT4",
+        "Bron": "UNIT4 ERP(x)"
+    },
+    "350": {
+        "Leverancier": "Intracto",
+        "Bron": "Drupal voor Gemeenten (DVG)"
+    },
+    "351": {
+        "Leverancier": "CompetenSYS",
+        "Bron": "CompetenSYS\u00ae"
+    },
+    "352": {
+        "Leverancier": "CompetenSYS",
+        "Bron": "Diagnose & Matching"
+    },
+    "353": {
+        "Leverancier": "CompetenSYS",
+        "Bron": "Loonwaarde met Loonbalans"
+    },
+    "354": {
+        "Leverancier": "CompetenSYS",
+        "Bron": "Zelfredzaamheidmatrix"
+    },
+    "355": {
+        "Leverancier": "CompetenSYS",
+        "Bron": "Mensontwikkeling en EVC"
+    },
+    "356": {
+        "Leverancier": "CIMSOLUTIONS",
+        "Bron": "Regie op Zorg (RoZ) oplossing voor het Gemeentelijk Sociaal Domein"
+    },
+    "357": {
+        "Leverancier": "Conclusion",
+        "Bron": "Conclusion CVS"
+    },
+    "358": {
+        "Leverancier": "Myneva",
+        "Bron": "myneva"
+    },
+    "359": {
+        "Leverancier": "xxllnc",
+        "Bron": "Berkeley Publisher"
+    },
+    "360": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Assessment "
+    },
+    "361": {
+        "Leverancier": "NTREE Solutions",
+        "Bron": "AVOI Manager"
+    },
+    "362": {
+        "Leverancier": "Yenlo Cloud Services",
+        "Bron": "Connext Go! / Centraal Aansluitpunt"
+    },
+    "363": {
+        "Leverancier": "C3Group",
+        "Bron": "Applicatie - Jeugdzorg en CORV (Deurmat)"
+    },
+    "364": {
+        "Leverancier": "Horlings & Eerbeek Automatisering B.V.",
+        "Bron": "Aeolus Back Jeugd"
+    },
+    "365": {
+        "Leverancier": "REM Automatisering bv",
+        "Bron": "OpenWave"
+    },
+    "366": {
+        "Leverancier": "Zorg-Lokaal",
+        "Bron": "Zorg-Portaal"
+    },
+    "367": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "GouwKadaster7"
+    },
+    "368": {
+        "Leverancier": "Wowww",
+        "Bron": "Drupal"
+    },
+    "369": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "JOIN Zaak en Document"
+    },
+    "370": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "JOIN E-Formulieren"
+    },
+    "371": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "JOIN Klantcontact"
+    },
+    "372": {
+        "Leverancier": "Centric",
+        "Bron": "module Documentenuitvoer"
+    },
+    "373": {
+        "Leverancier": "TM7",
+        "Bron": "Carp Classifier"
+    },
+    "374": {
+        "Leverancier": "TM7",
+        "Bron": "Carp Language Technology Suite"
+    },
+    "375": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Diagnose "
+    },
+    "376": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Loonwaarde "
+    },
+    "377": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Wegwijzer "
+    },
+    "378": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra Enterprise (multi branche)"
+    },
+    "379": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra Enterprise - Platform/Capaciteitlicentie"
+    },
+    "380": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra One - Platform/Base licentie (single branche - toepasbaar tot maximaal 40 user licenties)"
+    },
+    "381": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - Surface Editor (onderdeel van Orchestra Platform)"
+    },
+    "382": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - Score (onderdeel van Orchestra Platform)"
+    },
+    "383": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - Digital Signage"
+    },
+    "384": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - Context Marketing"
+    },
+    "385": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - Beat"
+    },
+    "386": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - Calendar"
+    },
+    "387": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - user licentie (webbased terminal)"
+    },
+    "388": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra - SMS"
+    },
+    "389": {
+        "Leverancier": "Nazca Solutions",
+        "Bron": "Nazca-i Rapportagesysteem"
+    },
+    "390": {
+        "Leverancier": "Nazca Solutions",
+        "Bron": "Nazca-i Fleetmanager"
+    },
+    "391": {
+        "Leverancier": "Nazca Solutions",
+        "Bron": "Nazca-i Grondstromensysteem"
+    },
+    "392": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Matching (2TTM) "
+    },
+    "393": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "iDocumenten"
+    },
+    "394": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "Easy Park"
+    },
+    "395": {
+        "Leverancier": "xxllnc",
+        "Bron": "TERCERA \u2013 BEHEER"
+    },
+    "396": {
+        "Leverancier": "xxllnc",
+        "Bron": "TERCERA \u2013 VIEWER"
+    },
+    "397": {
+        "Leverancier": "xxllnc",
+        "Bron": "TERCERA \u2013 TEKST"
+    },
+    "398": {
+        "Leverancier": "xxllnc",
+        "Bron": "TERCERA \u2013 PLANVERGELIJKER"
+    },
+    "399": {
+        "Leverancier": "xxllnc",
+        "Bron": "TERCERA \u2013 SCAN"
+    },
+    "400": {
+        "Leverancier": "Jeugdweb.nl",
+        "Bron": "Plus-Plan 2.1"
+    },
+    "401": {
+        "Leverancier": "TECHNIA B.V.",
+        "Bron": "Alfamail VISI"
+    },
+    "402": {
+        "Leverancier": "MY-LEX",
+        "Bron": "MY-LEX Sociaal Domein\u00ae "
+    },
+    "403": {
+        "Leverancier": "Gemboxx",
+        "Bron": "Geoboxx"
+    },
+    "404": {
+        "Leverancier": "Gemboxx",
+        "Bron": "RSGB Gegevensmagazijn"
+    },
+    "405": {
+        "Leverancier": "Gemboxx",
+        "Bron": "InwonerCloud"
+    },
+    "406": {
+        "Leverancier": "Gemboxx",
+        "Bron": "MiddelenBoxx"
+    },
+    "407": {
+        "Leverancier": "MEXTRA",
+        "Bron": "MEXTRA"
+    },
+    "408": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedMagazijn Basis"
+    },
+    "409": {
+        "Leverancier": "H2 hydrogenic",
+        "Bron": "Digiraadhuis"
+    },
+    "410": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "GouwInnen"
+    },
+    "411": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "GouwInnen7"
+    },
+    "412": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "GouwHeffen7"
+    },
+    "413": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "GouwParkeervergunning"
+    },
+    "414": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "GouwTaxatie"
+    },
+    "415": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "Gouw7 Wkpb"
+    },
+    "416": {
+        "Leverancier": "Gouw Informatie Technologie",
+        "Bron": "eGouw"
+    },
+    "417": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Digitale Balie"
+    },
+    "418": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor WABO"
+    },
+    "419": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor WOZ"
+    },
+    "420": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kwaliteitsmonitor Zaken"
+    },
+    "421": {
+        "Leverancier": "Synaxion",
+        "Bron": "Kcc monitor"
+    },
+    "422": {
+        "Leverancier": "Synaxion",
+        "Bron": "Synaxion Portaal Centrumgemeenten"
+    },
+    "423": {
+        "Leverancier": "xxllnc",
+        "Bron": "Exxellence  Suite (tot 2023)"
+    },
+    "424": {
+        "Leverancier": "B3Partners",
+        "Bron": "B3P BRMO (Basisregistratie MidOffice)"
+    },
+    "425": {
+        "Leverancier": "B3Partners",
+        "Bron": "Flamingo GeoCMS"
+    },
+    "426": {
+        "Leverancier": "B3Partners",
+        "Bron": "B3P WION"
+    },
+    "427": {
+        "Leverancier": "Sigmax",
+        "Bron": "CityPermit"
+    },
+    "428": {
+        "Leverancier": "Simac Obec BV",
+        "Bron": "CS DMS Alfresco"
+    },
+    "429": {
+        "Leverancier": "Nou&Off",
+        "Bron": "Collabora Office"
+    },
+    "430": {
+        "Leverancier": "Blinqt",
+        "Bron": "X-Works"
+    },
+    "431": {
+        "Leverancier": "Nazca Solutions",
+        "Bron": "Nazca-i Workflow Management"
+    },
+    "432": {
+        "Leverancier": "Nazca Solutions",
+        "Bron": "Nazca-i Arid Sensorbeheer"
+    },
+    "433": {
+        "Leverancier": "Seneca B.V.",
+        "Bron": "Seneca Formulierenserver"
+    },
+    "434": {
+        "Leverancier": "Centric",
+        "Bron": "Suite4Jeugdzorg"
+    },
+    "435": {
+        "Leverancier": "Progresity",
+        "Bron": "GeoVisia"
+    },
+    "436": {
+        "Leverancier": "Esri",
+        "Bron": "ArcGIS Enterprise"
+    },
+    "437": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Beveiligingsmonitor Suwinet"
+    },
+    "438": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMgeo"
+    },
+    "439": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMmeldpunt (End of Life)"
+    },
+    "440": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMarchivering"
+    },
+    "441": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIManalytics"
+    },
+    "442": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIM Monitor Digitaal"
+    },
+    "443": {
+        "Leverancier": "SIMgroep",
+        "Bron": "Bekendmakingen & Vergunningen (End of Life)"
+    },
+    "444": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMsearch"
+    },
+    "445": {
+        "Leverancier": "Centric",
+        "Bron": "HelloMe"
+    },
+    "446": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra Werkgeversportaal"
+    },
+    "447": {
+        "Leverancier": "Matchcare",
+        "Bron": "SZeebra Management Informatie"
+    },
+    "448": {
+        "Leverancier": "Genetics",
+        "Bron": "PowerMobiel"
+    },
+    "449": {
+        "Leverancier": "IDgis",
+        "Bron": "BRK2DB"
+    },
+    "450": {
+        "Leverancier": "LDC Business",
+        "Bron": "FIT (TNO en LDC)"
+    },
+    "451": {
+        "Leverancier": "LDC Business",
+        "Bron": "Foto Interesse Vragenlijst (FIV)"
+    },
+    "452": {
+        "Leverancier": "LDC Business",
+        "Bron": "LDC Interesses en Competenties (LINC)"
+    },
+    "453": {
+        "Leverancier": "LDC Business",
+        "Bron": "Quick Big Five (QBF)- Persoonlijkheid"
+    },
+    "454": {
+        "Leverancier": "LDC Business",
+        "Bron": "Wereld van Werk"
+    },
+    "455": {
+        "Leverancier": "LDC Business",
+        "Bron": "Werkervaring"
+    },
+    "456": {
+        "Leverancier": "LDC Business",
+        "Bron": "Capaciteiten/Intelligentie (ACT)"
+    },
+    "457": {
+        "Leverancier": "HawarIT",
+        "Bron": "ChaloIS BGTlink"
+    },
+    "458": {
+        "Leverancier": "HawarIT",
+        "Bron": "ChaloIS GISviewer"
+    },
+    "459": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht modules Digitale Grote Almanak en Regelingen en Voorzieningen"
+    },
+    "460": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Divosa Benchmark Armoede en Schulden"
+    },
+    "461": {
+        "Leverancier": "xxllnc",
+        "Bron": "4Woz"
+    },
+    "462": {
+        "Leverancier": "Data Kitchen B.V.",
+        "Bron": "Analyse/Data Intelligence/Predictive Analitics"
+    },
+    "463": {
+        "Leverancier": "Data Kitchen B.V.",
+        "Bron": "BAG Postcodebase 2018"
+    },
+    "464": {
+        "Leverancier": "Enable U",
+        "Bron": "JNet MijnOverheid BerichtenBox Portaal"
+    },
+    "465": {
+        "Leverancier": "xxllnc",
+        "Bron": "VRiS"
+    },
+    "466": {
+        "Leverancier": "Metaobjects",
+        "Bron": "Arrangeren (eerder MetaRegie)"
+    },
+    "467": {
+        "Leverancier": "TOPdesk",
+        "Bron": "TOPdesk"
+    },
+    "468": {
+        "Leverancier": "Topicus",
+        "Bron": "Gidso CORV"
+    },
+    "469": {
+        "Leverancier": "Topicus",
+        "Bron": "Gidso Portaal"
+    },
+    "470": {
+        "Leverancier": "Topicus",
+        "Bron": "Gidso Financieel"
+    },
+    "471": {
+        "Leverancier": "Mensken",
+        "Bron": "Sophie"
+    },
+    "472": {
+        "Leverancier": "Factuurportal B.V.",
+        "Bron": "Factuurportal"
+    },
+    "473": {
+        "Leverancier": "DA Systems",
+        "Bron": "Effectmeting Jongerenwerk"
+    },
+    "474": {
+        "Leverancier": "DA Systems",
+        "Bron": "DoelgroepAnalyseSysteem (DAS)"
+    },
+    "475": {
+        "Leverancier": "Maxdoro",
+        "Bron": "Inszicht app"
+    },
+    "476": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Mijn gemeente (PIP)"
+    },
+    "477": {
+        "Leverancier": "Finetic",
+        "Bron": "Digitaal Leefplein"
+    },
+    "478": {
+        "Leverancier": "Mavim",
+        "Bron": "Procesmanagement & Kwaliteitsmanagement met Mavim"
+    },
+    "479": {
+        "Leverancier": "Mavim",
+        "Bron": "Mavim & GEMMA (Enterprise Architectuur volgens ArchiMate)"
+    },
+    "480": {
+        "Leverancier": "Mavim",
+        "Bron": "IT Portfolio Management met Mavim (GEMMA Softwarecatalogus compliant)"
+    },
+    "481": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Belastingen test wijziging"
+    },
+    "482": {
+        "Leverancier": "MoGuide",
+        "Bron": "MoGuide, een unieke tool bij alle gesprekken. Een ideaal instrument voor wijkteams."
+    },
+    "483": {
+        "Leverancier": "MoGuide",
+        "Bron": "Participatiekaart-(gemeente)  (voorheen de sociale kaart)"
+    },
+    "484": {
+        "Leverancier": "KLANTINFOCUS B.V.",
+        "Bron": "GovMetric CX"
+    },
+    "485": {
+        "Leverancier": "xxllnc",
+        "Bron": "TERCERA \u2013 PLANNENBANK"
+    },
+    "486": {
+        "Leverancier": "One Fox",
+        "Bron": "CMIS 1.1 Adapter for OpenText eDOCS"
+    },
+    "487": {
+        "Leverancier": "One Fox",
+        "Bron": "StUF-ZKN & CMIS Adapter for OpenText eDOCS"
+    },
+    "488": {
+        "Leverancier": "BySpy",
+        "Bron": "BySpy Touch Registratie"
+    },
+    "489": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Integraal Raadplegen (NODEJS)"
+    },
+    "490": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "CiVision Operationele Overzichten (NODEJS)"
+    },
+    "491": {
+        "Leverancier": "xxllnc",
+        "Bron": "Toolkit e-formulieren"
+    },
+    "492": {
+        "Leverancier": "Cadac Group",
+        "Bron": "Survey Interface"
+    },
+    "493": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGeoberichten"
+    },
+    "494": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "Ruimte & Omgeving Suite (= iObjecten + iBelastingen)"
+    },
+    "495": {
+        "Leverancier": "Lucom Benelux BV",
+        "Bron": "InvoiceIN"
+    },
+    "496": {
+        "Leverancier": "Lucom Benelux BV",
+        "Bron": "Elektronisch Factureren"
+    },
+    "497": {
+        "Leverancier": "xxllnc",
+        "Bron": "PDC (Producten en Diensten Catalogus)"
+    },
+    "498": {
+        "Leverancier": "ilionx",
+        "Bron": "Verloren of Gevonden"
+    },
+    "499": {
+        "Leverancier": "PIM.info B.V.",
+        "Bron": "PIM platform"
+    },
+    "500": {
+        "Leverancier": "IDgis",
+        "Bron": "ECW hosting luchtfoto's"
+    },
+    "501": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMwebcast"
+    },
+    "502": {
+        "Leverancier": "Piwik PRO",
+        "Bron": "Piwik Pro - Cloud (webanalyse/webanalytics)"
+    },
+    "503": {
+        "Leverancier": "Piwik PRO",
+        "Bron": "Piwik PRO - OnPremise "
+    },
+    "504": {
+        "Leverancier": "xxllnc",
+        "Bron": "G4net voor onderwijshuisvesting"
+    },
+    "505": {
+        "Leverancier": "Kred'it",
+        "Bron": "Allegro"
+    },
+    "506": {
+        "Leverancier": "Kred'it",
+        "Bron": "Opus-D PRO"
+    },
+    "507": {
+        "Leverancier": "B3Partners",
+        "Bron": "B3P Catalog"
+    },
+    "508": {
+        "Leverancier": "SmartAIM",
+        "Bron": "SmartAIM Autorisation Management"
+    },
+    "509": {
+        "Leverancier": "C3Group",
+        "Bron": "Applicatie - Jeugdzorg en CORV"
+    },
+    "510": {
+        "Leverancier": "C3Group",
+        "Bron": "BRP Koppeling"
+    },
+    "511": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Zaaksysteem"
+    },
+    "512": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Financieel systeem test wijziging"
+    },
+    "513": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Integraal Geopakket"
+    },
+    "514": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Sociaal Domein naamswijziging"
+    },
+    "515": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Technische componenten"
+    },
+    "516": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo Persoonsregistratie"
+    },
+    "517": {
+        "Leverancier": "Arpha B.V.",
+        "Bron": "DigiD Adapter"
+    },
+    "518": {
+        "Leverancier": "SIMgroep",
+        "Bron": "Zaak- en documentservices"
+    },
+    "519": {
+        "Leverancier": "Valueresult",
+        "Bron": "Omgevingsloket online (Olo)"
+    },
+    "520": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "Fixi"
+    },
+    "521": {
+        "Leverancier": "xxllnc",
+        "Bron": "Digitaal Onderwijs Loket"
+    },
+    "522": {
+        "Leverancier": "xxllnc",
+        "Bron": "LBA software"
+    },
+    "523": {
+        "Leverancier": "xxllnc",
+        "Bron": "LLV"
+    },
+    "524": {
+        "Leverancier": "Sociale kaart Nederland",
+        "Bron": "Sociale kaart Nederland"
+    },
+    "525": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Digitale Post "
+    },
+    "526": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 Platform"
+    },
+    "527": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 - Essential"
+    },
+    "528": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 - Appointment Management"
+    },
+    "529": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 - Digital Communication"
+    },
+    "530": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 - Connectivity"
+    },
+    "531": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 - Business Intelligence"
+    },
+    "532": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 - Enterprise Operations"
+    },
+    "533": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6 - Mobile Ecosystem"
+    },
+    "534": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS E-Formulieren"
+    },
+    "535": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS GIS-Portaal"
+    },
+    "536": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Historie"
+    },
+    "537": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Digikoppeling"
+    },
+    "538": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Mijn Overheid"
+    },
+    "539": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Notaris"
+    },
+    "540": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Portal (KCC)"
+    },
+    "541": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Rapportages"
+    },
+    "542": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Onvermogen"
+    },
+    "543": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Voormelding WOZ"
+    },
+    "544": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Kwijtschelding"
+    },
+    "545": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Meet"
+    },
+    "546": {
+        "Leverancier": "BakerWare",
+        "Bron": "WebIS Mobiele Portal"
+    },
+    "547": {
+        "Leverancier": "Telecats",
+        "Bron": "Open Vraag Spraakherkenning voor gemeenten"
+    },
+    "548": {
+        "Leverancier": "Telecats",
+        "Bron": "Automatische terugbelafspraak tijdens grote drukte"
+    },
+    "549": {
+        "Leverancier": "Genetics",
+        "Bron": "PowerZis"
+    },
+    "550": {
+        "Leverancier": "GeoNovation B.V.",
+        "Bron": "KaartViewer"
+    },
+    "551": {
+        "Leverancier": "Visma Circle",
+        "Bron": "Ceelo"
+    },
+    "552": {
+        "Leverancier": "IDgis",
+        "Bron": "PlanoView"
+    },
+    "553": {
+        "Leverancier": "DiVault",
+        "Bron": "DiVault E-depot / Pre-depot"
+    },
+    "554": {
+        "Leverancier": "Templafy",
+        "Bron": "iWRITER 365"
+    },
+    "555": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite BRK - bg0310 converter"
+    },
+    "556": {
+        "Leverancier": "Omgevingsviewer.nl",
+        "Bron": "Omgevingsviewer"
+    },
+    "557": {
+        "Leverancier": "Op Orde",
+        "Bron": "Op Orde"
+    },
+    "558": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGlobe"
+    },
+    "559": {
+        "Leverancier": "Visma Raet",
+        "Bron": "Youforce"
+    },
+    "560": {
+        "Leverancier": "C3Group",
+        "Bron": "Applicatie - KlantContactCenter (KCC)"
+    },
+    "561": {
+        "Leverancier": "IMAGEM",
+        "Bron": "M.App Enterprise"
+    },
+    "562": {
+        "Leverancier": "OKcomply",
+        "Bron": "OKcomply"
+    },
+    "563": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Betalen"
+    },
+    "564": {
+        "Leverancier": "xxllnc",
+        "Bron": "VRiS E-Loket"
+    },
+    "565": {
+        "Leverancier": "IDgis",
+        "Bron": "GeoPortal"
+    },
+    "566": {
+        "Leverancier": "C3Group",
+        "Bron": "KING-API"
+    },
+    "567": {
+        "Leverancier": "Sdu",
+        "Bron": "VIND Informatiemanagement (i-Navigator, model-DSP)"
+    },
+    "568": {
+        "Leverancier": "Ranshuijsen BV",
+        "Bron": "PGAx"
+    },
+    "569": {
+        "Leverancier": "IMAGEM",
+        "Bron": "GeoMedia Desktop"
+    },
+    "570": {
+        "Leverancier": "IMAGEM",
+        "Bron": "ERDAS APOLLO"
+    },
+    "571": {
+        "Leverancier": "IMAGEM",
+        "Bron": "Stereo Analyst for ArcGIS"
+    },
+    "572": {
+        "Leverancier": "B-ware Business Software",
+        "Bron": "DocSys"
+    },
+    "573": {
+        "Leverancier": "Pagefreezer",
+        "Bron": "PageFreezer"
+    },
+    "574": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae PRO-werk"
+    },
+    "575": {
+        "Leverancier": "roxit",
+        "Bron": "MOOR Platform\u00ae"
+    },
+    "576": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht sociaal domein: online kennisbank voor uw gemeente  (ISD)"
+    },
+    "577": {
+        "Leverancier": "IDgis",
+        "Bron": "GeoDropIn"
+    },
+    "578": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo SaaS"
+    },
+    "579": {
+        "Leverancier": "Osano",
+        "Bron": "Basisgemeentesuite NHR - bg0310 converter"
+    },
+    "580": {
+        "Leverancier": "MoGuide",
+        "Bron": "BAZ (Basis App Zelfredzaamheid)"
+    },
+    "581": {
+        "Leverancier": "Capgemini",
+        "Bron": "Veilig Mobiel"
+    },
+    "582": {
+        "Leverancier": "MoGuide",
+        "Bron": "Jongerenapp"
+    },
+    "583": {
+        "Leverancier": "Stipter",
+        "Bron": "Maatschappelijk Ondersteuningsplatform (MO-platform)"
+    },
+    "584": {
+        "Leverancier": "One Fox",
+        "Bron": "Informatie op de Kaart"
+    },
+    "585": {
+        "Leverancier": "Prosoftware",
+        "Bron": "ZorgAdmin"
+    },
+    "586": {
+        "Leverancier": "Bentis B.V.",
+        "Bron": "AAG (Assurantie Administratie voor Gemeenten)"
+    },
+    "587": {
+        "Leverancier": "Stadsbeheer b.v.",
+        "Bron": "LEEF"
+    },
+    "588": {
+        "Leverancier": "CoolProfs",
+        "Bron": "CoolProfs gemeenteplatform"
+    },
+    "589": {
+        "Leverancier": "CoolProfs",
+        "Bron": "Digitaal Projectenboek"
+    },
+    "590": {
+        "Leverancier": "CoolProfs",
+        "Bron": "MGW - Mijn Gemeentelijke Werkzaamheden"
+    },
+    "591": {
+        "Leverancier": "CoolProfs",
+        "Bron": "Huurteam"
+    },
+    "592": {
+        "Leverancier": "CoolProfs",
+        "Bron": "eBalie bijzondere bijstand"
+    },
+    "593": {
+        "Leverancier": "CoolProfs",
+        "Bron": "iSWT - Sociale Wijkzorgteams"
+    },
+    "594": {
+        "Leverancier": "CoolProfs",
+        "Bron": "Mercato - Markten"
+    },
+    "595": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "GEMMA-2 pakket nieuw"
+    },
+    "596": {
+        "Leverancier": "roxit",
+        "Bron": "Squit 20/20 Publiceren"
+    },
+    "597": {
+        "Leverancier": "CoolProfs",
+        "Bron": "Basisregistratie Gezin en Jeugd"
+    },
+    "598": {
+        "Leverancier": "CoolProfs",
+        "Bron": "HOR - Handboek Openbare Ruimte"
+    },
+    "599": {
+        "Leverancier": "CoolProfs",
+        "Bron": "PROC - Proces Generator"
+    },
+    "600": {
+        "Leverancier": "Lifecycle Technology",
+        "Bron": "DigEplan"
+    },
+    "601": {
+        "Leverancier": "C3Group",
+        "Bron": "Applicatie - CRM"
+    },
+    "602": {
+        "Leverancier": "C3Group",
+        "Bron": "Applicatie - SoP Veiligheid"
+    },
+    "603": {
+        "Leverancier": "C3Group",
+        "Bron": "Applicatie - DMS"
+    },
+    "604": {
+        "Leverancier": "xxllnc",
+        "Bron": "Mijn Gemeente Portaal"
+    },
+    "605": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-Heffen"
+    },
+    "606": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-Innen"
+    },
+    "607": {
+        "Leverancier": "GeoTax",
+        "Bron": "GT-Gegevensmagazijn"
+    },
+    "608": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht module Bezwaar en Beroep"
+    },
+    "609": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht module Inkomen"
+    },
+    "610": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht  module Jeugd"
+    },
+    "611": {
+        "Leverancier": "roxit",
+        "Bron": "Squit 20/20 Omgevingsdossier"
+    },
+    "612": {
+        "Leverancier": "xxllnc",
+        "Bron": "Sociale Monitor (MI)"
+    },
+    "613": {
+        "Leverancier": "HawarIT",
+        "Bron": "GeoBORG BAG"
+    },
+    "614": {
+        "Leverancier": "JCC Software",
+        "Bron": "JCC-Betalen"
+    },
+    "615": {
+        "Leverancier": "JCC Software",
+        "Bron": "JCC-Personeelsplanning"
+    },
+    "616": {
+        "Leverancier": "Esri",
+        "Bron": "GeoBGT Connect"
+    },
+    "617": {
+        "Leverancier": "Green Valley Belgium",
+        "Bron": "De Besluitstraat"
+    },
+    "618": {
+        "Leverancier": "The People Group",
+        "Bron": "KLIC GraafManager"
+    },
+    "619": {
+        "Leverancier": "The People Group",
+        "Bron": "KLIC-Robot"
+    },
+    "620": {
+        "Leverancier": "The People Group",
+        "Bron": "KLIC-WIN Service"
+    },
+    "621": {
+        "Leverancier": "Fugro NL Land B.V.",
+        "Bron": "GeODin"
+    },
+    "622": {
+        "Leverancier": "Fugro NL Land B.V.",
+        "Bron": "FLAIM"
+    },
+    "623": {
+        "Leverancier": "Fugro NL Land B.V.",
+        "Bron": "INCA"
+    },
+    "624": {
+        "Leverancier": "Fugro NL Land B.V.",
+        "Bron": "FM Analyst"
+    },
+    "625": {
+        "Leverancier": "ProjectComfort",
+        "Bron": "ProjectComfort"
+    },
+    "626": {
+        "Leverancier": "eSpecialisten",
+        "Bron": "eWaarmerk (c)"
+    },
+    "627": {
+        "Leverancier": "IDgis",
+        "Bron": "Bedrijvenatlas"
+    },
+    "628": {
+        "Leverancier": "Terbit Information",
+        "Bron": "TCare"
+    },
+    "629": {
+        "Leverancier": "Montr",
+        "Bron": "Huisbezoek app"
+    },
+    "630": {
+        "Leverancier": "Montr",
+        "Bron": "Toezicht app"
+    },
+    "631": {
+        "Leverancier": "Montr",
+        "Bron": "Wijkteam app"
+    },
+    "632": {
+        "Leverancier": "Montr",
+        "Bron": "Sociaal Domein app"
+    },
+    "633": {
+        "Leverancier": "Centric",
+        "Bron": "Suite4Zorg"
+    },
+    "634": {
+        "Leverancier": "Centric",
+        "Bron": "GISVG"
+    },
+    "635": {
+        "Leverancier": "Esri",
+        "Bron": "ArcGIS Pro"
+    },
+    "636": {
+        "Leverancier": "JCC Software",
+        "Bron": "JCC-Klantgeleiding"
+    },
+    "637": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "Mijn Vergaderingen"
+    },
+    "638": {
+        "Leverancier": "eGem",
+        "Bron": "eGem Digikoppeling"
+    },
+    "639": {
+        "Leverancier": "Betty Blocks",
+        "Bron": "Gegevensportaal i-WMO & i-JW (alle berichttypes)"
+    },
+    "640": {
+        "Leverancier": "Betty Blocks",
+        "Bron": "Webshop om abonnementen door inwoners te laten afsluiten op het gebied van cultuur/sport (Regeling schoolgaande kinderen)"
+    },
+    "641": {
+        "Leverancier": "GISkit",
+        "Bron": "BGT Converters"
+    },
+    "642": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "iZaaksuite"
+    },
+    "643": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedCore"
+    },
+    "644": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedWIBON"
+    },
+    "645": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGlobe Web"
+    },
+    "646": {
+        "Leverancier": "Arpha B.V.",
+        "Bron": "Digistekker"
+    },
+    "647": {
+        "Leverancier": "BCPI.eu",
+        "Bron": "BCPI R6"
+    },
+    "648": {
+        "Leverancier": "Centric",
+        "Bron": "Centric Objectregistratie / (Key2)WOZ"
+    },
+    "649": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Wegwijzer Sonar"
+    },
+    "650": {
+        "Leverancier": "xxllnc",
+        "Bron": "LL-Connect"
+    },
+    "651": {
+        "Leverancier": "IntraData",
+        "Bron": "n-Office"
+    },
+    "652": {
+        "Leverancier": "roxit",
+        "Bron": "Squit 20/20 - VTH-Oplossing"
+    },
+    "653": {
+        "Leverancier": "IntraData",
+        "Bron": "n-Digisign"
+    },
+    "654": {
+        "Leverancier": "IntraData",
+        "Bron": "n-Office Server (NOSE 365)"
+    },
+    "655": {
+        "Leverancier": "Elkander",
+        "Bron": "Citymarketing"
+    },
+    "656": {
+        "Leverancier": "HTA Software",
+        "Bron": "IAM 2020 Online"
+    },
+    "657": {
+        "Leverancier": "Stimulansz",
+        "Bron": "Inzicht module Naleving en privacy"
+    },
+    "658": {
+        "Leverancier": "TM7",
+        "Bron": "CARP-E Anonimiseren"
+    },
+    "659": {
+        "Leverancier": "Pandora Intelligence",
+        "Bron": "Pandora Intelligence"
+    },
+    "660": {
+        "Leverancier": "Contezza",
+        "Bron": "Ketensamenwerking"
+    },
+    "661": {
+        "Leverancier": "Contezza",
+        "Bron": "Process Services"
+    },
+    "662": {
+        "Leverancier": "Contezza",
+        "Bron": "Content service platform Tezza"
+    },
+    "663": {
+        "Leverancier": "Contezza",
+        "Bron": "Ephesoft: Intelligent Document Capture"
+    },
+    "664": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 6.1 Appointment management (Einde ondersteuning)"
+    },
+    "665": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "EvenementAssistent"
+    },
+    "666": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "Leerlingenvervoer.nu"
+    },
+    "667": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "InkomensAssistent Bijzondere Bijstand"
+    },
+    "668": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "InkomensAssistent Levensonderhoud"
+    },
+    "669": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "Kennisbank"
+    },
+    "670": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron Stroomlijn"
+    },
+    "671": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Mentorwijs"
+    },
+    "672": {
+        "Leverancier": "Cadac Group",
+        "Bron": "StUF Geo-BAG connector"
+    },
+    "673": {
+        "Leverancier": "Cadac Group",
+        "Bron": "StUF Geo-IMGeo connector"
+    },
+    "674": {
+        "Leverancier": "Cordiplan",
+        "Bron": "Cordiplan "
+    },
+    "675": {
+        "Leverancier": "Yellowtail",
+        "Bron": "Key Control Dashboard als \u00e9\u00e9n integrale oplossing voor uw interne beheersing"
+    },
+    "676": {
+        "Leverancier": "Itrajectum",
+        "Bron": "Easy bus Digikoppeling"
+    },
+    "677": {
+        "Leverancier": "IMAGEM",
+        "Bron": "ERDAS IMAGINE"
+    },
+    "678": {
+        "Leverancier": "ValidSign",
+        "Bron": "Geavanceerde elektronische handtekening"
+    },
+    "679": {
+        "Leverancier": "Andes",
+        "Bron": "LTC"
+    },
+    "680": {
+        "Leverancier": "ValidSign",
+        "Bron": "Gekwalificeerde elektronische handtekening"
+    },
+    "681": {
+        "Leverancier": "Open-T",
+        "Bron": "Alice enterprise search"
+    },
+    "682": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView CRM Citymarketing"
+    },
+    "683": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView CRM Contractmanagement"
+    },
+    "684": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView CRM Economische Zaken"
+    },
+    "685": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView Fietsendepot"
+    },
+    "686": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView CRM Relatiebeheer "
+    },
+    "687": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView CRM Sportstimulatie"
+    },
+    "688": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView Verloren of Gevonden"
+    },
+    "689": {
+        "Leverancier": "PerfectView",
+        "Bron": "PerfectView CRM Sociale Zaken"
+    },
+    "690": {
+        "Leverancier": "IntellinQ",
+        "Bron": "GeolinQ"
+    },
+    "691": {
+        "Leverancier": "Centric",
+        "Bron": "Digitale Belasting Balie (DBB)"
+    },
+    "692": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGlobe Informatie"
+    },
+    "693": {
+        "Leverancier": "Cadac Group",
+        "Bron": "Smart M.Apps Energie Transitie Dashboard"
+    },
+    "694": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedValidatie"
+    },
+    "695": {
+        "Leverancier": "eSpecialisten",
+        "Bron": "eBurgerpas (c)"
+    },
+    "696": {
+        "Leverancier": "Itrajectum",
+        "Bron": "Easy bus  ESB Microservices platform"
+    },
+    "697": {
+        "Leverancier": "xxllnc",
+        "Bron": "DMN Modeler/Toepasbare Regels DSO"
+    },
+    "698": {
+        "Leverancier": "Seneca B.V.",
+        "Bron": "Seneca Sociaal Intranet"
+    },
+    "699": {
+        "Leverancier": "Dragon1",
+        "Bron": "Dragon1"
+    },
+    "700": {
+        "Leverancier": "roxit",
+        "Bron": "Rx.Zone"
+    },
+    "701": {
+        "Leverancier": "SIMgroep",
+        "Bron": "Persoonlijk Internet Portaal "
+    },
+    "702": {
+        "Leverancier": "SIMgroep",
+        "Bron": "Bedrijven Internet Portaal"
+    },
+    "703": {
+        "Leverancier": "Dariuz BV",
+        "Bron": "Dariuz Works\u00ae Plan van Aanpak"
+    },
+    "704": {
+        "Leverancier": "eGem",
+        "Bron": "eGem Diginetwerk"
+    },
+    "705": {
+        "Leverancier": "IDgis",
+        "Bron": "GeoSpraak"
+    },
+    "706": {
+        "Leverancier": "xxllnc",
+        "Bron": "Vertex Objecten"
+    },
+    "707": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 Platform"
+    },
+    "708": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Journey Manager Entry"
+    },
+    "709": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Journey Manager Standard"
+    },
+    "710": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Journey Manager Premium"
+    },
+    "711": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Appointment Manager Standard"
+    },
+    "712": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Deliverd Services"
+    },
+    "713": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Customer Feedback Basic"
+    },
+    "714": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Customer Feedback SAAS"
+    },
+    "715": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Counter module"
+    },
+    "716": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Reception module"
+    },
+    "717": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Connect module"
+    },
+    "718": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Concierge module"
+    },
+    "719": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Staff Notification module"
+    },
+    "720": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Customer Notification module"
+    },
+    "721": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Media Display"
+    },
+    "722": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Digital Signage"
+    },
+    "723": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Mobile ticket"
+    },
+    "724": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Reports"
+    },
+    "725": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Reports via Insights (Managed Service)"
+    },
+    "726": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Operations Panel"
+    },
+    "727": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Surface editor"
+    },
+    "728": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - LDAP"
+    },
+    "729": {
+        "Leverancier": "Qmatic Holland B.V.",
+        "Bron": "Qmatic Orchestra 7 - Digital Signage Integration"
+    },
+    "730": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Waarderen"
+    },
+    "731": {
+        "Leverancier": "NieuwlandGeo",
+        "Bron": "WebGIS Publisher"
+    },
+    "732": {
+        "Leverancier": "xxllnc",
+        "Bron": "LeerSaam"
+    },
+    "733": {
+        "Leverancier": "IRM360 B.V.",
+        "Bron": "CyberManager"
+    },
+    "734": {
+        "Leverancier": "MY-LEX",
+        "Bron": "MY-LEX Legacy\u00ae"
+    },
+    "735": {
+        "Leverancier": "Embrace",
+        "Bron": "Embrace Social"
+    },
+    "736": {
+        "Leverancier": "OBI4wan",
+        "Bron": "Online Media Monitor OBI4wan"
+    },
+    "737": {
+        "Leverancier": "Elkander",
+        "Bron": "Minimagids"
+    },
+    "738": {
+        "Leverancier": "NotuBiz Nederland",
+        "Bron": "Politiek Portaal"
+    },
+    "739": {
+        "Leverancier": "Centric",
+        "Bron": "Privacy Workspace"
+    },
+    "740": {
+        "Leverancier": "SEP",
+        "Bron": "ISMS"
+    },
+    "741": {
+        "Leverancier": "SEP",
+        "Bron": "Privacytool"
+    },
+    "742": {
+        "Leverancier": "NARIS",
+        "Bron": "NARIS GRC"
+    },
+    "743": {
+        "Leverancier": "IMAGEM",
+        "Bron": "PRO600"
+    },
+    "744": {
+        "Leverancier": "IMAGEM",
+        "Bron": "Mobile Alert"
+    },
+    "745": {
+        "Leverancier": "Blinqt",
+        "Bron": "X-Information"
+    },
+    "746": {
+        "Leverancier": "Seneca B.V.",
+        "Bron": "Seneca Kennisbank"
+    },
+    "747": {
+        "Leverancier": "Seneca B.V.",
+        "Bron": "Seneca KCS"
+    },
+    "748": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedOmgeving"
+    },
+    "749": {
+        "Leverancier": "Ivengi.com",
+        "Bron": "Easyfunders - Subsidie Management Software"
+    },
+    "750": {
+        "Leverancier": "TrueLime",
+        "Bron": "Octopus | on-premise"
+    },
+    "751": {
+        "Leverancier": "Centric",
+        "Bron": "Motion"
+    },
+    "752": {
+        "Leverancier": "eSpecialisten",
+        "Bron": "eVinden (c) (Enterprise Search)"
+    },
+    "753": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron BRK Monitor"
+    },
+    "754": {
+        "Leverancier": "VDSS stopt gijzelsoftware/ransomware",
+        "Bron": "TSMS"
+    },
+    "755": {
+        "Leverancier": "VDSS stopt gijzelsoftware/ransomware",
+        "Bron": "VDSS"
+    },
+    "756": {
+        "Leverancier": "P8 Software",
+        "Bron": "P8"
+    },
+    "757": {
+        "Leverancier": "Geodan",
+        "Bron": "STTR Builder"
+    },
+    "758": {
+        "Leverancier": "Decos Information Solutions",
+        "Bron": "AIM"
+    },
+    "759": {
+        "Leverancier": "Supportbook Testmanagementtool (onderdeel van Zapphire)",
+        "Bron": "Supportbook"
+    },
+    "760": {
+        "Leverancier": "ZorgNed Automatisering",
+        "Bron": "ZorgNed"
+    },
+    "761": {
+        "Leverancier": "DEVENTit",
+        "Bron": "Atlantis Archief- en Inventarisbeheer"
+    },
+    "762": {
+        "Leverancier": "DEVENTit",
+        "Bron": "Atlantis Bouwdossiers"
+    },
+    "763": {
+        "Leverancier": "DEVENTit",
+        "Bron": "Atlantis Collectiebeheer"
+    },
+    "764": {
+        "Leverancier": "Key2Control",
+        "Bron": "Key2Control GRC"
+    },
+    "765": {
+        "Leverancier": "Key2Control",
+        "Bron": "Key2Control AVG"
+    },
+    "766": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Elektor"
+    },
+    "767": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Self-Service - Stembureauleden"
+    },
+    "768": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Stemhulp"
+    },
+    "769": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Stembureautraining.nl"
+    },
+    "770": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Belastingen"
+    },
+    "771": {
+        "Leverancier": "Ignite Group",
+        "Bron": "SubsidieVolgSysteem Inkomend"
+    },
+    "772": {
+        "Leverancier": "Werktools | andSafety",
+        "Bron": "Toezichthoudersapp"
+    },
+    "773": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "OPEN.email"
+    },
+    "774": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "OPEN.print"
+    },
+    "775": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "OPEN.opslaan"
+    },
+    "776": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "OPEN.connector - Kofax naar zaaksysteem connector"
+    },
+    "777": {
+        "Leverancier": "ArchiXL",
+        "Bron": "ArchiMedes\u2122"
+    },
+    "778": {
+        "Leverancier": "ArchiXL",
+        "Bron": "BegrippenXL\u2122"
+    },
+    "779": {
+        "Leverancier": "ArchiXL",
+        "Bron": "WikiXL\u2122"
+    },
+    "780": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Dienst - Consultancy"
+    },
+    "781": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Kansen snel in kaart met Explore"
+    },
+    "782": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Snelle innovatie die werkt met Fixxx"
+    },
+    "783": {
+        "Leverancier": "Centrum voor publieke innovatie",
+        "Bron": "MULTIsignaal"
+    },
+    "784": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Toets je idee met Design Sprint"
+    },
+    "785": {
+        "Leverancier": "OD-Solutions Nederland BV",
+        "Bron": "ANow Remediate 4.5"
+    },
+    "786": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Zaaksysteem op zak met Clean Street"
+    },
+    "787": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Tourbus informatie op de kaart met TourBuzz"
+    },
+    "788": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "Drupal"
+    },
+    "789": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "FileZilla"
+    },
+    "790": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "FreeMind"
+    },
+    "791": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "GeoNetwork"
+    },
+    "792": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "GeoServer"
+    },
+    "793": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "KeePass"
+    },
+    "794": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "LibreOffice"
+    },
+    "795": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "Putty"
+    },
+    "796": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "Typo3"
+    },
+    "797": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "Wordpress"
+    },
+    "798": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "WinSCP"
+    },
+    "799": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "Archi"
+    },
+    "800": {
+        "Leverancier": "The People Group",
+        "Bron": "Optimize NLCS"
+    },
+    "801": {
+        "Leverancier": "The People Group",
+        "Bron": "Optimize GeoDATA"
+    },
+    "802": {
+        "Leverancier": "The People Group",
+        "Bron": "Optimize Street Smart"
+    },
+    "803": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo omgevingswet omgevingsbeleid"
+    },
+    "804": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo omgevingswet toepasbare regels"
+    },
+    "805": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo omgevingswet VTH"
+    },
+    "806": {
+        "Leverancier": "DataMask",
+        "Bron": "DataMask - Documenten anonimiseren"
+    },
+    "807": {
+        "Leverancier": "GlobeScope",
+        "Bron": "Smart Privacy Analyzer"
+    },
+    "808": {
+        "Leverancier": "GlobeScope",
+        "Bron": "Smart Document Analyzer"
+    },
+    "809": {
+        "Leverancier": "Nelen & Schuurmans",
+        "Bron": "3Di "
+    },
+    "810": {
+        "Leverancier": "Nelen & Schuurmans",
+        "Bron": "Lizard"
+    },
+    "811": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Veilig notities op straat met Straatnotes"
+    },
+    "812": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Sociaal Domein regelingen bij elkaar met VraagMij"
+    },
+    "813": {
+        "Leverancier": "Partners4IT",
+        "Bron": "Dienst - Stembureaumanager"
+    },
+    "814": {
+        "Leverancier": "regeldienst.nl",
+        "Bron": "regeldienst.nl B1 taal check"
+    },
+    "815": {
+        "Leverancier": "regeldienst.nl",
+        "Bron": "regeldienst.nl Vragenbomen"
+    },
+    "816": {
+        "Leverancier": "GlobeScope",
+        "Bron": "StreetSpotter"
+    },
+    "817": {
+        "Leverancier": "GlobeScope",
+        "Bron": "ToezichtsApp"
+    },
+    "818": {
+        "Leverancier": "Argaleo",
+        "Bron": "DigiTwin"
+    },
+    "819": {
+        "Leverancier": "Argaleo",
+        "Bron": "Omgevingsserver"
+    },
+    "820": {
+        "Leverancier": "Fortes Solutions",
+        "Bron": "Fortes Change Cloud Portfoliomanagement"
+    },
+    "821": {
+        "Leverancier": "Fortes Solutions",
+        "Bron": "Fortes Change Cloud Insights"
+    },
+    "822": {
+        "Leverancier": "Fortes Solutions",
+        "Bron": "Fortes Change Cloud Projectmanagement "
+    },
+    "823": {
+        "Leverancier": "Fortes Solutions",
+        "Bron": "Fortes Change Cloud Strategische richting en doelstellingen"
+    },
+    "824": {
+        "Leverancier": "Fortes Solutions",
+        "Bron": "Fortes Change Cloud Tijdschrijven"
+    },
+    "825": {
+        "Leverancier": "WIND Internet BV",
+        "Bron": "TYPO3"
+    },
+    "826": {
+        "Leverancier": "WIND Internet BV",
+        "Bron": "FormCycle"
+    },
+    "827": {
+        "Leverancier": "WIND Internet BV",
+        "Bron": "Petear"
+    },
+    "828": {
+        "Leverancier": "Templafy",
+        "Bron": "Templafy"
+    },
+    "829": {
+        "Leverancier": "DE REE archiefsystemen",
+        "Bron": "MAIS-(M)DWS"
+    },
+    "830": {
+        "Leverancier": "CenterOne Group",
+        "Bron": "ProcessPro VTH"
+    },
+    "831": {
+        "Leverancier": "Ignite Group",
+        "Bron": "SubsidieVolgSysteem Uitgaand"
+    },
+    "832": {
+        "Leverancier": "ilionx",
+        "Bron": "Onegov Teamwork"
+    },
+    "833": {
+        "Leverancier": "Axxemble",
+        "Bron": "Dienst - Base27"
+    },
+    "834": {
+        "Leverancier": "roxit",
+        "Bron": "Rx.Mission"
+    },
+    "835": {
+        "Leverancier": "OBI4wan",
+        "Bron": "WhatsApp Business API"
+    },
+    "836": {
+        "Leverancier": "OBI4wan",
+        "Bron": "OBI Bots"
+    },
+    "837": {
+        "Leverancier": "BMconsultants",
+        "Bron": "Kofax Capture"
+    },
+    "838": {
+        "Leverancier": "Ervaringwijzer",
+        "Bron": "Ervaringwijzer"
+    },
+    "839": {
+        "Leverancier": "Zynyo",
+        "Bron": "Digitaal ondertekenen "
+    },
+    "840": {
+        "Leverancier": "GlobeScope",
+        "Bron": "VIA (van inrichting naar milieubelastende activiteit)"
+    },
+    "841": {
+        "Leverancier": "BMconsultants",
+        "Bron": "Kofax Total Agility (KTA)"
+    },
+    "842": {
+        "Leverancier": "BMconsultants",
+        "Bron": "Kofax Robotic Process Automation (RPA)"
+    },
+    "843": {
+        "Leverancier": "BMconsultants",
+        "Bron": "BMdataprotector"
+    },
+    "844": {
+        "Leverancier": "Infradax Overheid",
+        "Bron": "Databrush"
+    },
+    "845": {
+        "Leverancier": "Brink Software",
+        "Bron": "Ibis Besteksadministratie voor Infra "
+    },
+    "846": {
+        "Leverancier": "Brink Software",
+        "Bron": "Ibis Calculeren voor Bouw"
+    },
+    "847": {
+        "Leverancier": "Brink Software",
+        "Bron": "Ibis Calculeren voor Infra"
+    },
+    "848": {
+        "Leverancier": "Brink Software",
+        "Bron": "Ibis Specificeren voor RAW"
+    },
+    "849": {
+        "Leverancier": "Brink Software",
+        "Bron": "Ibis Calculeren voor Vastgoed"
+    },
+    "850": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "QGIS"
+    },
+    "851": {
+        "Leverancier": "De Peutermonitor",
+        "Bron": "De Peutermonitor"
+    },
+    "852": {
+        "Leverancier": "NieuwlandGeo",
+        "Bron": "Onemap"
+    },
+    "853": {
+        "Leverancier": "OD-Solutions Nederland BV",
+        "Bron": "WeCo Office Accessibility"
+    },
+    "854": {
+        "Leverancier": "Future Insight Group",
+        "Bron": "BIM"
+    },
+    "855": {
+        "Leverancier": "Esri",
+        "Bron": "GeoBRK"
+    },
+    "856": {
+        "Leverancier": "Esri",
+        "Bron": "GeoHR"
+    },
+    "857": {
+        "Leverancier": "Future Insight Group",
+        "Bron": "Clearly"
+    },
+    "858": {
+        "Leverancier": "Future Insight Group",
+        "Bron": "3D - Digital Twin"
+    },
+    "859": {
+        "Leverancier": "Future Insight Group",
+        "Bron": "Clearly VISI"
+    },
+    "860": {
+        "Leverancier": "Arkance Systems",
+        "Bron": "InfraCAD"
+    },
+    "861": {
+        "Leverancier": "Arkance Systems",
+        "Bron": "InfraCAD Map"
+    },
+    "862": {
+        "Leverancier": "Arkance Systems",
+        "Bron": "InfraCAD CE"
+    },
+    "863": {
+        "Leverancier": "Common Ground Pakketten",
+        "Bron": "Registratie toeristische verhuur woonruimte"
+    },
+    "864": {
+        "Leverancier": "Common Ground Pakketten",
+        "Bron": "Huishoudboekje"
+    },
+    "865": {
+        "Leverancier": "Common Ground Pakketten",
+        "Bron": "Signalen"
+    },
+    "866": {
+        "Leverancier": "Mavim",
+        "Bron": "Omgevingswet Framework"
+    },
+    "867": {
+        "Leverancier": "Mavim",
+        "Bron": "Informatiebeveiliging met Mavim (ISMS)"
+    },
+    "868": {
+        "Leverancier": "Mavim",
+        "Bron": "Participatiewet framework"
+    },
+    "869": {
+        "Leverancier": "Mavim",
+        "Bron": "Mavim & TOPdesk (Asset Management) API"
+    },
+    "870": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "7-Zip"
+    },
+    "871": {
+        "Leverancier": "Cocoon - Media Management Software",
+        "Bron": "Cocoon - Media Management Software - START"
+    },
+    "872": {
+        "Leverancier": "360Geo",
+        "Bron": "Georizon geodata platform"
+    },
+    "873": {
+        "Leverancier": "Cocoon - Media Management Software",
+        "Bron": "Cocoon - Media Management Software - GROW"
+    },
+    "874": {
+        "Leverancier": "eSpecialisten",
+        "Bron": "eAnonimiseren (c)"
+    },
+    "875": {
+        "Leverancier": "roxit",
+        "Bron": "Rx.Base"
+    },
+    "876": {
+        "Leverancier": "SAP Nederland",
+        "Bron": "SAP S/4HANA voor lokale overheden"
+    },
+    "877": {
+        "Leverancier": "Civity",
+        "Bron": "DataCatalogus"
+    },
+    "878": {
+        "Leverancier": "Mproof",
+        "Bron": "Clientele ITSM"
+    },
+    "879": {
+        "Leverancier": "INKIS",
+        "Bron": "INKIS \u2013 Samenwerken en Regisseren"
+    },
+    "880": {
+        "Leverancier": "INKIS",
+        "Bron": "INKIS \u2013 Enqu\u00eate tool (app)"
+    },
+    "881": {
+        "Leverancier": "INKIS",
+        "Bron": "INKIS \u2013 Business Intelligence tool (app)"
+    },
+    "882": {
+        "Leverancier": "Centric",
+        "Bron": "Key2Handhaving"
+    },
+    "883": {
+        "Leverancier": "StellaSpark",
+        "Bron": "Nexus"
+    },
+    "884": {
+        "Leverancier": "Elkander",
+        "Bron": "Geldwijzer"
+    },
+    "885": {
+        "Leverancier": "Enable U",
+        "Bron": "Managed Integrations (MI)"
+    },
+    "886": {
+        "Leverancier": "Postex Nederland BV",
+        "Bron": "Postex platform"
+    },
+    "887": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Probleem in kaart brengen met Discovery (process mapping, service blueprint)"
+    },
+    "888": {
+        "Leverancier": "Tiltshift, maak het \u00e9cht",
+        "Bron": "Co-creatie van maatwerk software met Ideation (MVP, product visie, roadmap)"
+    },
+    "889": {
+        "Leverancier": "Enable U",
+        "Bron": "StelselPlus Magazijn"
+    },
+    "890": {
+        "Leverancier": "PAQT.com",
+        "Bron": "Samenwerkingsplatform Belastingheffing "
+    },
+    "891": {
+        "Leverancier": "Common Ground Pakketten",
+        "Bron": "Open Zaak"
+    },
+    "892": {
+        "Leverancier": "Common Ground Pakketten",
+        "Bron": "Open Zaakbrug"
+    },
+    "893": {
+        "Leverancier": "roxit",
+        "Bron": "Rx.Launch"
+    },
+    "894": {
+        "Leverancier": "Fully In Control",
+        "Bron": "Dienst - GRC software"
+    },
+    "895": {
+        "Leverancier": "Fully In Control",
+        "Bron": "Dienst - Control & Audit software"
+    },
+    "896": {
+        "Leverancier": "Fully In Control",
+        "Bron": "Dienst - Compliance Management software"
+    },
+    "897": {
+        "Leverancier": "Fully In Control",
+        "Bron": "Dienst - ISMS (Informatiebeveiliging) software"
+    },
+    "898": {
+        "Leverancier": "Fully In Control",
+        "Bron": "Dienst - Kwaliteitsmanagement software"
+    },
+    "899": {
+        "Leverancier": "Fully In Control",
+        "Bron": "Dienst - Risicomanagement software"
+    },
+    "900": {
+        "Leverancier": "Fully In Control",
+        "Bron": "Dienst - Risk Based Performance Management software"
+    },
+    "901": {
+        "Leverancier": "Jobport",
+        "Bron": "Jobport - coaching & matching software - module werkgeversdienstverlening"
+    },
+    "902": {
+        "Leverancier": "Jobport",
+        "Bron": "Jobport - coaching & matching software - module werkzoekendendienstverlening"
+    },
+    "903": {
+        "Leverancier": "SIMgroep",
+        "Bron": "Felix - PDC"
+    },
+    "904": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMkcs"
+    },
+    "905": {
+        "Leverancier": "KCM Group",
+        "Bron": "Dienst - Security Awareness Platform"
+    },
+    "906": {
+        "Leverancier": "KCM Group",
+        "Bron": "Dienst - StembureauSucces"
+    },
+    "907": {
+        "Leverancier": "KCM Group",
+        "Bron": "Dienst - E-learning klantcontact"
+    },
+    "908": {
+        "Leverancier": "KCM Group",
+        "Bron": "Dienst - Klanttevredenheidsonderzoek"
+    },
+    "909": {
+        "Leverancier": "GISArts BV",
+        "Bron": "COOK Geo Viewer"
+    },
+    "910": {
+        "Leverancier": "Aqqo (voorheen Accommodatiehuur)",
+        "Bron": "Aqqo (voorheen Accommodatiehuur)"
+    },
+    "911": {
+        "Leverancier": "Atabix",
+        "Bron": "MijnOmgeving (klantportaal)"
+    },
+    "912": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGlobe Portal"
+    },
+    "913": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedMagazijn Kern"
+    },
+    "914": {
+        "Leverancier": "NTI CAD & Company",
+        "Bron": "GWW-CAD"
+    },
+    "915": {
+        "Leverancier": "triptic - Iris Intranet",
+        "Bron": "Iris Intranet"
+    },
+    "916": {
+        "Leverancier": "Permento",
+        "Bron": "Permento DAP"
+    },
+    "917": {
+        "Leverancier": "SIMgroep",
+        "Bron": "SIMsite powered by Drupal - Content Management Systeem"
+    },
+    "918": {
+        "Leverancier": "Yellowtail",
+        "Bron": "Key Control Dashboard BPM"
+    },
+    "919": {
+        "Leverancier": "Yellowtail",
+        "Bron": "Key Control Dashboard PMS"
+    },
+    "920": {
+        "Leverancier": "Maykin",
+        "Bron": "Open Formulieren"
+    },
+    "921": {
+        "Leverancier": "Maykin",
+        "Bron": "Open Inwoner Platrform"
+    },
+    "922": {
+        "Leverancier": "Maykin",
+        "Bron": "Overige Object Registraties"
+    },
+    "923": {
+        "Leverancier": "Maykin",
+        "Bron": "Catalogi Importer"
+    },
+    "924": {
+        "Leverancier": "Maykin",
+        "Bron": "Virtuele Gemeente Assistent (Gem)"
+    },
+    "925": {
+        "Leverancier": "Maykin",
+        "Bron": "Open Zaak"
+    },
+    "926": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "OPEN.crypt"
+    },
+    "927": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Self-Service - Stembureaulocaties"
+    },
+    "928": {
+        "Leverancier": "Procura",
+        "Bron": "MijnStembureau"
+    },
+    "929": {
+        "Leverancier": "Procura",
+        "Bron": "MijnVerkiezing"
+    },
+    "930": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "Samenwerkportaal"
+    },
+    "931": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "iParticipatie"
+    },
+    "932": {
+        "Leverancier": "Elkander",
+        "Bron": "Het Informatiepunt"
+    },
+    "933": {
+        "Leverancier": "Eljakim IT",
+        "Bron": "CAReL 3"
+    },
+    "934": {
+        "Leverancier": "Deapr",
+        "Bron": "Go deapr"
+    },
+    "935": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "iArchief"
+    },
+    "936": {
+        "Leverancier": "DE REE archiefsystemen",
+        "Bron": "MAIS-Flexis"
+    },
+    "937": {
+        "Leverancier": "Cadac Group",
+        "Bron": "NedGlobe Mobile"
+    },
+    "938": {
+        "Leverancier": "Centric",
+        "Bron": "Centric Leefomgeving"
+    },
+    "939": {
+        "Leverancier": "Outbirds",
+        "Bron": "Warmtetransitie Volgsysteem"
+    },
+    "940": {
+        "Leverancier": "IMAGEM",
+        "Bron": "Mutatiesignalering - DELTA"
+    },
+    "941": {
+        "Leverancier": "DataB. Mailservice",
+        "Bron": "Betaaldienstverlening"
+    },
+    "942": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform"
+    },
+    "943": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Videobellen"
+    },
+    "944": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR Trouwloket SaaS platform"
+    },
+    "945": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Termijnbewaking"
+    },
+    "946": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module SMS-Notificaties"
+    },
+    "947": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Single-Sign On"
+    },
+    "948": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Reistijdoptimalisatie"
+    },
+    "949": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Narrowcasting"
+    },
+    "950": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module My T:MEBLOCKR"
+    },
+    "951": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Meertaligheid"
+    },
+    "952": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Managementsturing"
+    },
+    "953": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Locatiesturing"
+    },
+    "954": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Klanttevredenheid"
+    },
+    "955": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Klantgeleiding"
+    },
+    "956": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module BI-Connector"
+    },
+    "957": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Bezettingsgraad & Capaciteitsplanning"
+    },
+    "958": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module AVG / GDPR"
+    },
+    "959": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Agenda Connector"
+    },
+    "960": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR Saas platform - Module Afspraakverzoeken"
+    },
+    "961": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Betalingen"
+    },
+    "962": {
+        "Leverancier": "TIMEBLOCKR",
+        "Bron": "T:MEBLOCKR SaaS platform - Module Online Authenticatie"
+    },
+    "963": {
+        "Leverancier": "Visma Circle",
+        "Bron": "Djuma"
+    },
+    "964": {
+        "Leverancier": "Gemeente Rotterdam",
+        "Bron": "Plato"
+    },
+    "965": {
+        "Leverancier": "Gemeente Rotterdam",
+        "Bron": "Digitale Balie"
+    },
+    "966": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS InControl"
+    },
+    "967": {
+        "Leverancier": "Baasgeo",
+        "Bron": "Cogo Collect"
+    },
+    "968": {
+        "Leverancier": "Baasgeo",
+        "Bron": "MapGallery"
+    },
+    "969": {
+        "Leverancier": "Qualogy Solutions",
+        "Bron": "ParQ (GPS)"
+    },
+    "970": {
+        "Leverancier": "iASSET",
+        "Bron": "iASSET Beheersoftware"
+    },
+    "971": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Verkiezingsportal"
+    },
+    "972": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Enqu\u00eate stembureauleden"
+    },
+    "973": {
+        "Leverancier": "Centric",
+        "Bron": "eDiensten Mijn inkomen & Mijn regie"
+    },
+    "974": {
+        "Leverancier": "KlicConverter",
+        "Bron": "KlicConverter CAD"
+    },
+    "975": {
+        "Leverancier": "KlicConverter",
+        "Bron": "KlicConverter GIS"
+    },
+    "976": {
+        "Leverancier": "KlicConverter",
+        "Bron": "KlicConverter-as-a-Service"
+    },
+    "977": {
+        "Leverancier": "Tools4ever",
+        "Bron": "HelloID Provisioning"
+    },
+    "978": {
+        "Leverancier": "Tools4ever",
+        "Bron": "HelloID Service Automation"
+    },
+    "979": {
+        "Leverancier": "Tools4ever",
+        "Bron": "HelloID Access Management"
+    },
+    "980": {
+        "Leverancier": "CARE Internet Services BV",
+        "Bron": "Gemeentebox website en CMS"
+    },
+    "981": {
+        "Leverancier": "Delta10",
+        "Bron": "Atlas"
+    },
+    "982": {
+        "Leverancier": "Zorgverkeer",
+        "Bron": "Aanbodportaal"
+    },
+    "983": {
+        "Leverancier": "Zorgverkeer",
+        "Bron": "Zorgportaal"
+    },
+    "984": {
+        "Leverancier": "Zorgverkeer",
+        "Bron": "Aanbestedingenportaal"
+    },
+    "985": {
+        "Leverancier": "Zorgverkeer",
+        "Bron": "Toegangsportaal"
+    },
+    "986": {
+        "Leverancier": "Zorgverkeer",
+        "Bron": "Regio Dashboard"
+    },
+    "987": {
+        "Leverancier": "Zorgverkeer",
+        "Bron": "Spendanalyse"
+    },
+    "988": {
+        "Leverancier": "Smart CJM",
+        "Bron": "Smart CX - Klantenbegeleidingssysteem"
+    },
+    "989": {
+        "Leverancier": "ZXY Cloud",
+        "Bron": "ZXY Cloud"
+    },
+    "990": {
+        "Leverancier": "Smart CJM",
+        "Bron": "Smart CX - Online Afsprakensysteem"
+    },
+    "991": {
+        "Leverancier": "Parlaeus",
+        "Bron": "Parlaeus"
+    },
+    "992": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS ISMS"
+    },
+    "993": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS BUIG"
+    },
+    "994": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS Horizontaal Toezicht"
+    },
+    "995": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS INFO"
+    },
+    "996": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS PAUW"
+    },
+    "997": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS Enterprise"
+    },
+    "998": {
+        "Leverancier": "Inergy",
+        "Bron": "LIAS Analytics"
+    },
+    "999": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo digitale toegankelijkheid"
+    },
+    "1000": {
+        "Leverancier": "MeterInsight Energiemanagement",
+        "Bron": "MeterInsight Energiemanagement"
+    },
+    "1001": {
+        "Leverancier": "Monsido website monitoring",
+        "Bron": "Gemeenten standaardpakket 2023"
+    },
+    "1002": {
+        "Leverancier": "Neoforce",
+        "Bron": "Neoforce"
+    },
+    "1003": {
+        "Leverancier": "Centric",
+        "Bron": "eDiensten voor Aanvragen (Snelbalie)"
+    },
+    "1004": {
+        "Leverancier": "TSA Verkiezingen",
+        "Bron": "Stempas Scanner App"
+    },
+    "1005": {
+        "Leverancier": "Testcentrum Groei B.V.",
+        "Bron": "Groei Premium abonnement: Re-integratie tests & tools"
+    },
+    "1006": {
+        "Leverancier": "Testcentrum Groei B.V.",
+        "Bron": "Groei Premium abonnement: HRM tests & tools"
+    },
+    "1007": {
+        "Leverancier": "DIP, Digital Insights Platform",
+        "Bron": "Digital Insights Platform (DIP)"
+    },
+    "1008": {
+        "Leverancier": "TrueLime",
+        "Bron": "Octopus | cloud"
+    },
+    "1009": {
+        "Leverancier": "Maykin",
+        "Bron": "Open Archiefbeheer"
+    },
+    "1010": {
+        "Leverancier": "Enable U",
+        "Bron": "Enable U Cloud Connector"
+    },
+    "1011": {
+        "Leverancier": "Arpha B.V.",
+        "Bron": "Berichtenbox API"
+    },
+    "1012": {
+        "Leverancier": "Arpha B.V.",
+        "Bron": "DigiD Stub (gratis)"
+    },
+    "1013": {
+        "Leverancier": "Progresity",
+        "Bron": "Reppido"
+    },
+    "1014": {
+        "Leverancier": "Ignite Group",
+        "Bron": "Subsidiedatabase (Vindsubsidies.nl)"
+    },
+    "1015": {
+        "Leverancier": "roxit",
+        "Bron": "Rx.Open"
+    },
+    "1016": {
+        "Leverancier": "Stadsbeheer b.v.",
+        "Bron": "LEEF-Buiten"
+    },
+    "1017": {
+        "Leverancier": "KlicConverter",
+        "Bron": "KlicConverter Feature Service"
+    },
+    "1018": {
+        "Leverancier": "Itrajectum",
+        "Bron": "Easy bus NEXUS"
+    },
+    "1019": {
+        "Leverancier": "Atabix",
+        "Bron": "Atabix Zaakgericht werken"
+    },
+    "1020": {
+        "Leverancier": "ProjectReports",
+        "Bron": "ProjectReports"
+    },
+    "1021": {
+        "Leverancier": "MyCumulus",
+        "Bron": "MyCumulus - Cloud Data Collection"
+    },
+    "1022": {
+        "Leverancier": "DE REE archiefsystemen",
+        "Bron": "MAIS-eDepot"
+    },
+    "1023": {
+        "Leverancier": "Yarado",
+        "Bron": "Yarado RPA Software voor Gemeenten"
+    },
+    "1024": {
+        "Leverancier": "Pantyr",
+        "Bron": "Atlas"
+    },
+    "1025": {
+        "Leverancier": "Enable U",
+        "Bron": "Enable U 2Distribute"
+    },
+    "1026": {
+        "Leverancier": "GemeenteOplossingen",
+        "Bron": "GO. raadsinformatie - raadsinformatiesysteem, bestuursinformatiesysteem, stateninformatiesysteem"
+    },
+    "1027": {
+        "Leverancier": "OnView",
+        "Bron": "OnView"
+    },
+    "1028": {
+        "Leverancier": "Ortec Finance",
+        "Bron": "OrtaX"
+    },
+    "1029": {
+        "Leverancier": "Gfacility",
+        "Bron": "Gfacility"
+    },
+    "1030": {
+        "Leverancier": "Innovadis",
+        "Bron": "Fincent - Saas"
+    },
+    "1031": {
+        "Leverancier": "Open Source pakketten",
+        "Bron": "Matomo"
+    },
+    "1032": {
+        "Leverancier": "PinkRoccade Local Government",
+        "Bron": "iLogboek"
+    },
+    "1033": {
+        "Leverancier": "Amyyon",
+        "Bron": "Amyyon CRM "
+    },
+    "1034": {
+        "Leverancier": "Cell[0]",
+        "Bron": "HIOR"
+    },
+    "1035": {
+        "Leverancier": "the Right Direction BV",
+        "Bron": "Portal Genius"
+    },
+    "1036": {
+        "Leverancier": "the Right Direction BV",
+        "Bron": "KLIC Genius"
+    },
+    "1037": {
+        "Leverancier": "Sdu",
+        "Bron": "VIND Antwoord"
+    },
+    "1038": {
+        "Leverancier": "KoppelHet",
+        "Bron": "KoppelHet Enterprise Service Bus (ESB)"
+    },
+    "1039": {
+        "Leverancier": "Tingit",
+        "Bron": "Tingit platform Sociaal Domein"
+    },
+    "1040": {
+        "Leverancier": "OD-Solutions Nederland BV",
+        "Bron": "4@LL2B Digitale Toegankelijkheid (Ally Office)"
+    },
+    "1041": {
+        "Leverancier": "OD-Solutions Nederland BV",
+        "Bron": "4@LL2B PRIVACY"
+    },
+    "1042": {
+        "Leverancier": "KLANTINFOCUS B.V.",
+        "Bron": "SMILE"
+    },
+    "1043": {
+        "Leverancier": "OIS",
+        "Bron": "IRIS"
+    },
+    "1044": {
+        "Leverancier": "Visma Circle",
+        "Bron": "Djuma OpenInfo"
+    },
+    "1045": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron Databank"
+    },
+    "1046": {
+        "Leverancier": "VNG Realisatie Demo",
+        "Bron": "Demo archief"
+    },
+    "1047": {
+        "Leverancier": "Sensus process management",
+        "Bron": "Sensus BPM Online"
+    },
+    "1048": {
+        "Leverancier": "We Watch Buurtpreventie",
+        "Bron": "We Watch Buurtpreventie App"
+    },
+    "1049": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "OPEN.email 365"
+    },
+    "1050": {
+        "Leverancier": "OPEN.satisfaction",
+        "Bron": "OPEN.edepot"
+    },
+    "1051": {
+        "Leverancier": "Engage Process",
+        "Bron": "Engage Process"
+    },
+    "1052": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron ESB"
+    },
+    "1053": {
+        "Leverancier": "Vicrea",
+        "Bron": "Neuron Smartmaps"
+    },
+    "1054": {
+        "Leverancier": "Centric",
+        "Bron": "Centric Betalen"
+    },
+    "1055": {
+        "Leverancier": "Fen\u00eatre Online Solutions",
+        "Bron": "Diamond Forms, Flows & Docs"
+    },
+    "1056": {
+        "Leverancier": "Dataether",
+        "Bron": "DataFitness"
+    },
+    "1057": {
+        "Leverancier": "Fen\u00eatre Online Solutions",
+        "Bron": "Energiemonitor"
+    },
+    "1058": {
+        "Leverancier": "Fen\u00eatre Online Solutions",
+        "Bron": "Silicon Low Code platform"
+    },
+    "1059": {
+        "Leverancier": "Fen\u00eatre Online Solutions",
+        "Bron": "Workboard procesmanagement"
+    },
+    "1060": {
+        "Leverancier": "iprox.",
+        "Bron": "iprox.open - complete publicatie-oplossing voor de Woo"
+    },
+    "1061": {
+        "Leverancier": "Purfaction",
+        "Bron": "Spendanalyse & Rechtmatigheidsanalyses"
+    },
+    "1062": {
+        "Leverancier": "EntrD",
+        "Bron": "FileFactory"
+    },
+    "1063": {
+        "Leverancier": "EntrD",
+        "Bron": "DataFactory"
+    },
+    "1064": {
+        "Leverancier": "Geodan",
+        "Bron": "Decentraal Loket (DCL)"
+    },
+    "1065": {
+        "Leverancier": "WoningNet",
+        "Bron": "Voorrangverlening"
+    },
+    "1066": {
+        "Leverancier": "WoningNet",
+        "Bron": "Vergunningverlening"
+    },
+    "1067": {
+        "Leverancier": "WoningNet",
+        "Bron": "Statushouders"
+    },
+    "1068": {
+        "Leverancier": "WoningNet",
+        "Bron": "Caseload"
+    },
+    "1069": {
+        "Leverancier": "Harbers Solutions",
+        "Bron": "Express (voorheen KANA Express, Verint Express)"
+    },
+    "1070": {
+        "Leverancier": "Studytube B.V.",
+        "Bron": "Studytube Leerplatform"
+    },
+    "1071": {
+        "Leverancier": "Cocoon Subsidiesoftware",
+        "Bron": "COCOON Subsidiedatabase"
+    },
+    "1072": {
+        "Leverancier": "Cocoon Subsidiesoftware",
+        "Bron": "COCOON Subsidiescan "
+    },
+    "1073": {
+        "Leverancier": "NotuBiz Nederland",
+        "Bron": "NotuBox"
+    },
+    "1074": {
+        "Leverancier": "AFAS Software",
+        "Bron": "HRM & Payroll"
+    }
+}

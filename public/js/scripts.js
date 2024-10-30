@@ -1,6 +1,6 @@
 // Updated scripts.js to sort the records by the 'gemeente' column alphabetically
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-app.js";
-import { getDocs, query, collection, deleteDoc, doc, addDoc, orderBy, getFirestore } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore.js";
+import { getDocs, query, collection, deleteDoc, doc, addDoc, updateDoc, getFirestore } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-auth.js";
 
 // Initialize Firebase Authentication
@@ -67,13 +67,13 @@ async function fetchRecords() {
       const record = doc.data();
       const recordId = doc.id;
       const newRow = `
-        <tr>
-          <td>${record.gemeente}</td>
-          <td>${record.contactpersoon}</td>
-          <td>${record.onderwerp}</td>
-          <td>${record.subonderwerp}</td>
-          <td>${record.bron}</td>
-          <td>${record.status}</td>
+        <tr data-id="${recordId}">
+          <td data-field="gemeente">${record.gemeente}</td>
+          <td data-field="contactpersoon">${record.contactpersoon}</td>
+          <td data-field="onderwerp">${record.onderwerp}</td>
+          <td data-field="subonderwerp">${record.subonderwerp}</td>
+          <td data-field="bron">${record.bron}</td>
+          <td data-field="status">${record.status}</td>
           <td class="delete-cell" style="display: none;">
             <button class="delete-button" data-id="${recordId}" style="display: none;">&minus;</button>
           </td>
@@ -97,6 +97,8 @@ async function fetchRecords() {
       }
     });
 
+    enableCellEditing();  // Call function to enable cell editing
+
     // Attach delete event listeners
     deleteButtons.forEach(button => {
       button.addEventListener('click', async (e) => {
@@ -106,13 +108,68 @@ async function fetchRecords() {
           alert('Record deleted successfully!');
           fetchRecords(); // Refresh the records after deletion
         } catch (error) {
-          console.error('Error deleting document: ', error);
+          console.error('Error deleting document:', error);
         }
       });
     });
   } catch (error) {
-    console.error('Error fetching records: ', error);
+    console.error('Error fetching records:', error);
   }
+}
+
+// Function to enable inline cell editing for all table cells
+function enableCellEditing() {
+  const rows = document.querySelectorAll('#recordsTable tbody tr');
+  rows.forEach(row => {
+    const recordId = row.getAttribute('data-id');
+    row.querySelectorAll('td:not(.delete-cell)').forEach(cell => {
+      cell.addEventListener('mouseenter', () => {
+        cell.classList.add('editable'); // Add hover effect
+      });
+      cell.addEventListener('mouseleave', () => {
+        cell.classList.remove('editable');
+      });
+      cell.addEventListener('click', () => {
+        if (!auth.currentUser) return; // Only allow editing when logged in
+        const originalValue = cell.innerText;
+        const field = cell.getAttribute('data-field'); // Retrieve the field name
+        // console.log(`Editing field: ${field} for document ID: ${recordId}`); // Debugging line
+
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.value = originalValue;
+        cell.innerHTML = ''; // Clear cell content
+        cell.appendChild(input);
+        input.focus();
+
+        input.addEventListener('blur', async () => {
+          const newValue = input.value.trim();
+          if (newValue !== originalValue) {
+            if (field) {  // Ensure field is not null
+              try {
+                await updateDoc(doc(db, 'records', recordId), { [field]: newValue });
+                // console.log(`Updated ${field} for document ID: ${recordId} with value: ${newValue}`);
+                cell.innerText = newValue;
+              } catch (error) {
+                console.error('Error updating document:', error);
+                cell.innerText = originalValue; // Revert to original if there's an error
+              }
+            } else {
+              console.error('Field name is null, unable to update.');
+            }
+          } else {
+            cell.innerText = originalValue; // Revert if no change
+          }
+        });
+
+        input.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            input.blur(); // Save on Enter key
+          }
+        });
+      });
+    });
+  });
 }
 
 // Fetch the records when the page loads
@@ -120,22 +177,15 @@ document.addEventListener('DOMContentLoaded', fetchRecords);
 
 // On document fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-
   // Init table sort
   sort = new Tablesort(document.getElementById('recordsTable'));
-
   sort.refresh();
 
-  // Init EmailJS
-  if ( emailjs ) {
-
+  // Initialize EmailJS
+  if (emailjs) {
     emailjs.init({ publicKey: 'sYD3J6d69p4pX-r2V' });
-
-  }
-  else {
-
+  } else {
     console.error('emailjs not loaded!');
-
   }
 
   const loginButton = document.getElementById('loginButton');
@@ -156,9 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   content.addEventListener('click', event => {
-
     event.stopImmediatePropagation();
-    
   });
 
   // Open login modal
@@ -261,22 +309,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Use EmailJS or alternative method here to send the data
     try {
-
       emailjs.send('service_46c00xx', 'template_xiy2tgj', {
         description,
         email,
         changeRequests: options.join(', ')
       });
-
       alert('Dank voor uw feedback');
-
     }
     catch (error) {
-
       console.error(error);
-
       alert('Oeps, er ging iets fout! Probeer het later opnieuw.');
-      
     }
 
     // Close modal after submission

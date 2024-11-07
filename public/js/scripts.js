@@ -18,7 +18,109 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
 
+function normalizeText(text) {
+  return text.toLowerCase().replace(/[^a-z0-9\s]/gi, ''); // Lowercase and remove non-alphanumeric characters
+}
+
+
 let sort;
+// Initialize arrays for storing suggestions
+let gemeenteSuggestions = [];
+let bronSuggestions = [];
+
+// Fetch suggestions for Gemeente and Bron
+fetch('/public/data/citynames.json')
+  .then(response => response.json())
+  .then(data => {
+    gemeenteSuggestions = data.geonames.map(city => city.toponymName);
+  })
+  .catch(error => console.error('Error loading city names:', error));
+
+fetch('/public/data/leveranciers.json')
+  .then(response => response.json())
+  .then(data => {
+    bronSuggestions = Object.values(data).map(entry => entry.Bron);
+  })
+  .catch(error => console.error('Error loading leveranciers:', error));
+
+// Function to create and display suggestion list under the input
+function showSuggestions(input, suggestionsArray) {
+  // Clear any existing suggestion list
+  const existingList = input.parentNode.querySelector('.suggestions-list');
+  if (existingList) existingList.remove();
+
+  // Exit if there are no suggestions to show
+  if (suggestionsArray.length === 0) return;
+
+  // Create new suggestion list
+  const list = document.createElement('ul');
+  list.classList.add('suggestions-list');
+  
+  // Position list directly below the input field
+  list.style.top = `${input.offsetTop + input.offsetHeight}px`;
+  list.style.left = `${input.offsetLeft}px`;
+  list.style.width = `${input.offsetWidth}px`;
+
+  suggestionsArray.forEach(suggestion => {
+    const item = document.createElement('li');
+    item.textContent = suggestion;
+    item.addEventListener('mousedown', (event) => { // Use mousedown instead of click
+      event.preventDefault(); // Prevent blur event from hiding the list
+      input.value = suggestion; // Set the full suggestion as the input's value
+      list.remove(); // Clear the list after selection
+    });
+    
+    list.appendChild(item);
+  });
+  
+  input.parentNode.appendChild(list);
+}
+
+// Event listener for Gemeente input
+const gemeenteInput = document.getElementById('gemeente');
+gemeenteInput.addEventListener('input', () => {
+  const query = gemeenteInput.value.toLowerCase();
+  const filteredSuggestions = gemeenteSuggestions.filter(suggestion => 
+    suggestion.toLowerCase().startsWith(query)
+  );
+
+  showSuggestions(gemeenteInput, filteredSuggestions);
+});
+
+// Event listener for Bron input
+const bronInput = document.getElementById('bron');
+bronInput.addEventListener('input', () => {
+  const query = normalizeText(bronInput.value);
+  const filteredSuggestions = bronSuggestions.filter(suggestion => 
+    query.split(' ').some(term => normalizeText(suggestion).includes(term))
+  );
+  
+  showSuggestions(bronInput, filteredSuggestions);
+});
+
+
+// Close suggestion list when clicking outside
+document.addEventListener('click', (event) => {
+  const lists = document.querySelectorAll('.suggestions-list');
+  lists.forEach(list => {
+    if (!list.contains(event.target) && event.target !== gemeenteInput && event.target !== bronInput) {
+      list.remove();
+    }
+  });
+});
+
+// Close suggestion list on blur (when clicking away) if no match
+gemeenteInput.addEventListener('blur', () => {
+  const list = gemeenteInput.parentNode.querySelector('.suggestions-list');
+  if (list) list.remove();
+});
+
+bronInput.addEventListener('blur', () => {
+  const list = bronInput.parentNode.querySelector('.suggestions-list');
+  if (list) list.remove();
+});
+
+
 
 // Listen for form submission and add data to Firestore
 const form = document.getElementById('dataForm');

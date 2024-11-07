@@ -29,14 +29,14 @@ let gemeenteSuggestions = [];
 let bronSuggestions = [];
 
 // Fetch suggestions for Gemeente and Bron
-fetch('/public/data/citynames.json')
+fetch('/data/citynames.json')
   .then(response => response.json())
   .then(data => {
     gemeenteSuggestions = data.geonames.map(city => city.toponymName);
   })
   .catch(error => console.error('Error loading city names:', error));
 
-fetch('/public/data/leveranciers.json')
+fetch('/data/leveranciers.json')
   .then(response => response.json())
   .then(data => {
     bronSuggestions = Object.values(data).map(entry => entry.Bron);

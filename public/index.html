@@ -74,10 +74,34 @@
         <!-- Existing fields -->
         <input type="text" id="gemeente" placeholder="Gemeente" required>
         <input type="text" id="contactpersoon" placeholder="Contactpersoon" required>
-        <input type="text" id="onderwerp" placeholder="Onderwerp" required>
+        <select id="onderwerp" required>
+          <option value="" disabled selected hidden>Onderwerp</option>
+          <option value="Basisregistratie">Basisregistratie</option>
+          <option value="Bestuur, Politiek en Ondersteuning">Bestuur, Politiek en Ondersteuning</option>
+          <option value="Dienstverlening">Dienstverlening</option>
+          <option value="Economie">Economie</option>
+          <option value="Interne organisatie">Interne organisatie</option>
+          <option value="Onderwijs">Onderwijs</option>
+          <option value="Sociaal domein">Sociaal domein</option>
+          <option value="Sport, Cultuur en Recreatie">Sport, Cultuur en Recreatie</option>
+          <option value="Veiligheid en Vergunningen">Veiligheid en Vergunningen</option>
+          <option value="Verkeer, Vervoer en waterstaat">Verkeer, Vervoer en waterstaat</option>
+          <option value="Volksgezondheid en milieu">Volksgezondheid en milieu</option>
+          <option value="Volkshuisvesting, leefomgeving en stedelijke vernieuwing">Volkshuisvesting, leefomgeving en stedelijke vernieuwing</option>
+        </select>
+           
         <input type="text" id="subonderwerp" placeholder="Sub-onderwerp" required>
         <input type="text" id="bron" placeholder="Bron" required>
-        <input type="text" id="status" placeholder="Status" required>
+        <select id="status" required>
+          <option value="" disabled selected hidden>Status</option>
+          <option value="Afgerond">Afgerond</option>
+          <option value="In ontwikkeling">In ontwikkeling</option>
+          <option value="Net gestart">Net gestart</option>
+          <option value="Op de planning">Op de planning</option>
+          <option value="Op zoek naar hulp">Op zoek naar hulp</option>
+        </select>
+           
+        
 
         <!-- Honeypot field: invisible to real users -->
         <input type="text" id="honeypot" name="honeypot" style="display:none;" autocomplete="off">

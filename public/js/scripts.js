@@ -29,19 +29,20 @@ let gemeenteSuggestions = [];
 let bronSuggestions = [];
 
 // Fetch suggestions for Gemeente and Bron
-fetch('/data/citynames.json')
+fetch('./data/citynames.json')
   .then(response => response.json())
   .then(data => {
     gemeenteSuggestions = data.geonames.map(city => city.toponymName);
   })
   .catch(error => console.error('Error loading city names:', error));
 
-fetch('/data/leveranciers.json')
+fetch('./data/leveranciers.json')
   .then(response => response.json())
   .then(data => {
     bronSuggestions = Object.values(data).map(entry => entry.Bron);
   })
   .catch(error => console.error('Error loading leveranciers:', error));
+
 
 // Function to create and display suggestion list under the input
 function showSuggestions(input, suggestionsArray) {

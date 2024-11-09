@@ -191,18 +191,33 @@ input:not([type=checkbox]), textarea {
   height: 40px; /* Set a consistent height if needed */
 }
 
-/* Separate style for select (dropdown) fields */
+/* Base style for desktop */
 select {
-  box-sizing: border-box;
+  appearance: none; /* Remove default styles */
+  -webkit-appearance: none; /* Safari */
+  -moz-appearance: none; /* Firefox */
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 4px;
   width: 100%;
-  color: #666;
-  height: 40px; /* Match height with input fields if needed */
-  appearance: none; /* This removes the default styling on some browsers */
+  color: #666; /* Default color for desktop */
+  height: 40px;
+  background-color: #fff;
+  /* background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23666" d="M2 0L0 2h4zM2 5L0 3h4z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;  */
 }
+
+/* Lighter color for mobile */
+@media (max-width: 599px) {
+  select,
+  select option {
+    color: #A9A9A9;
+  }
+}
+
 
 
 textarea {

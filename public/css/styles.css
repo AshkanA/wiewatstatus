@@ -210,7 +210,7 @@ select {
   background-size: 10px;  */
 }
 
-/* Lighter color for mobile */
+/* Lighter color for mobile
 @media (max-width: 599px) {
   select,
   select option {

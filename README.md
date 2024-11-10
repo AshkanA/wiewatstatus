@@ -10,12 +10,16 @@
 
 ### 2. Functionaliteiten
 
-- **Inloggen en Uitloggen**: Alleen beheerders kunnen inloggen om nieuwe gegevens toe te voegen of te verwijderen. Het inlog- en uitlogproces wordt verzorgd door Firebase Authentication.
-- **Recordbeheer**: Ingelogde gebruikers kunnen nieuwe records toevoegen door het formulier in te vullen. Deze records bevatten velden zoals gemeente, contactpersoon, onderwerp, subonderwerp, bron, en status.
+- **Inloggen en Uitloggen**: Alleen beheerders kunnen inloggen om bestaande gegevens te wijzigen of te verwijderen. Het inlog- en uitlogproces wordt verzorgd door Firebase Authentication.
+- **Recordbeheer**: alle gebruikers kunnen nieuwe records toevoegen door het formulier in te vullen. Deze records bevatten velden zoals gemeente, contactpersoon, onderwerp, subonderwerp, bron, en status.
+- **Koppeling softwarecatalogus**: Om het toevoegen van applicaties aan de lijst makkelijker te maken, zoveel mogelijk gestandaardiseerd, hebben we een koppeling gemaakt met de softwarecatalogus gemaakt
 - **Records Weergeven**: De records worden weergegeven in een tabel die automatisch wordt bijgewerkt zodra nieuwe gegevens worden toegevoegd of verwijderd.
 - **Zoekfunctie**: Gebruikers kunnen records dynamisch filteren met behulp van een zoekveld.
 - **Records Sorteren**: De records kunnen worden gesorteerd op kolom met behulp van de Tablesort-bibliotheek.
 - **Records Verwijderen**: Ingelogde beheerders kunnen records verwijderen uit de tabel.
+- **Records wijzigen**: Ingelogde beheerders kunnen records direct inline wijzigen.
+- **Wijzigingsverzoek**: Gebruikers kunnen een verzoek indienen om de status, contactpersoon of applicatie naam te wijzigen of een record volledig laten verwijderen.
+
 
 ### 3. Bestandstructuur
 

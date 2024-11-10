@@ -191,6 +191,12 @@ input:not([type=checkbox]), textarea {
   height: 40px; /* Set a consistent height if needed */
 }
 
+/* Style for placeholder text in input and textarea fields */
+input:not([type=checkbox])::placeholder, textarea::placeholder {
+  color: #A9A9A9; /* Adjust to your preferred color */
+  opacity: 1;   /* Adjust opacity if needed */
+}
+
 /* Base style for desktop */
 select {
   appearance: none; /* Remove default styles */
@@ -201,7 +207,7 @@ select {
   border: 1px solid #ddd;
   border-radius: 4px;
   width: 100%;
-  color: #666; /* Default color for desktop */
+  color: #A9A9A9; /* Default color for desktop */
   height: 40px;
   background-color: #fff;
   /* background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23666" d="M2 0L0 2h4zM2 5L0 3h4z"/></svg>');
@@ -210,15 +216,11 @@ select {
   background-size: 10px;  */
 }
 
-/* Lighter color for mobile */
-@media (max-width: 599px) {
-  select {
-    color: #A9A9A9; /* This changes the color of the selected text */
-  }
+select:focus,
+select:valid {
+  color: #666; /* Match the color of filled input fields */
+  font-style: normal;
 }
-
-
-
 
 textarea {
   resize: vertical;

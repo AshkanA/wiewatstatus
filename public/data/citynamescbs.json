@@ -1,0 +1,1030 @@
+{
+    "cbsnames": [
+        {
+            "toponymName": "Aa en Hunze"
+        },
+        {
+            "toponymName": "Aalsmeer"
+        },
+        {
+            "toponymName": "Aalten"
+        },
+        {
+            "toponymName": "Achtkarspelen"
+        },
+        {
+            "toponymName": "Alblasserdam"
+        },
+        {
+            "toponymName": "Albrandswaard"
+        },
+        {
+            "toponymName": "Alkmaar"
+        },
+        {
+            "toponymName": "Almelo"
+        },
+        {
+            "toponymName": "Almere"
+        },
+        {
+            "toponymName": "Alphen aan den Rijn"
+        },
+        {
+            "toponymName": "Alphen-Chaam"
+        },
+        {
+            "toponymName": "Altena"
+        },
+        {
+            "toponymName": "Ameland"
+        },
+        {
+            "toponymName": "Amersfoort"
+        },
+        {
+            "toponymName": "Amstelveen"
+        },
+        {
+            "toponymName": "Amsterdam"
+        },
+        {
+            "toponymName": "Apeldoorn"
+        },
+        {
+            "toponymName": "Arnhem"
+        },
+        {
+            "toponymName": "Assen"
+        },
+        {
+            "toponymName": "Asten"
+        },
+        {
+            "toponymName": "Baarle-Nassau"
+        },
+        {
+            "toponymName": "Baarn"
+        },
+        {
+            "toponymName": "Barendrecht"
+        },
+        {
+            "toponymName": "Barneveld"
+        },
+        {
+            "toponymName": "Beek (L.)"
+        },
+        {
+            "toponymName": "Beekdaelen"
+        },
+        {
+            "toponymName": "Beesel"
+        },
+        {
+            "toponymName": "Berg en Dal"
+        },
+        {
+            "toponymName": "Bergeijk"
+        },
+        {
+            "toponymName": "Bergen (L.)"
+        },
+        {
+            "toponymName": "Bergen (NH.)"
+        },
+        {
+            "toponymName": "Bergen op Zoom"
+        },
+        {
+            "toponymName": "Berkelland"
+        },
+        {
+            "toponymName": "Bernheze"
+        },
+        {
+            "toponymName": "Best"
+        },
+        {
+            "toponymName": "Beuningen"
+        },
+        {
+            "toponymName": "Beverwijk"
+        },
+        {
+            "toponymName": "De Bilt"
+        },
+        {
+            "toponymName": "Bladel"
+        },
+        {
+            "toponymName": "Blaricum"
+        },
+        {
+            "toponymName": "Bloemendaal"
+        },
+        {
+            "toponymName": "Bodegraven-Reeuwijk"
+        },
+        {
+            "toponymName": "Boekel"
+        },
+        {
+            "toponymName": "Borger-Odoorn"
+        },
+        {
+            "toponymName": "Borne"
+        },
+        {
+            "toponymName": "Borsele"
+        },
+        {
+            "toponymName": "Boxtel"
+        },
+        {
+            "toponymName": "Breda"
+        },
+        {
+            "toponymName": "Bronckhorst"
+        },
+        {
+            "toponymName": "Brummen"
+        },
+        {
+            "toponymName": "Brunssum"
+        },
+        {
+            "toponymName": "Bunnik"
+        },
+        {
+            "toponymName": "Bunschoten"
+        },
+        {
+            "toponymName": "Buren"
+        },
+        {
+            "toponymName": "Capelle aan den IJssel"
+        },
+        {
+            "toponymName": "Castricum"
+        },
+        {
+            "toponymName": "Coevorden"
+        },
+        {
+            "toponymName": "Cranendonck"
+        },
+        {
+            "toponymName": "Culemborg"
+        },
+        {
+            "toponymName": "Dalfsen"
+        },
+        {
+            "toponymName": "Dantumadiel"
+        },
+        {
+            "toponymName": "Delft"
+        },
+        {
+            "toponymName": "Deurne"
+        },
+        {
+            "toponymName": "Deventer"
+        },
+        {
+            "toponymName": "Diemen"
+        },
+        {
+            "toponymName": "Dijk en Waard"
+        },
+        {
+            "toponymName": "Dinkelland"
+        },
+        {
+            "toponymName": "Doesburg"
+        },
+        {
+            "toponymName": "Doetinchem"
+        },
+        {
+            "toponymName": "Dongen"
+        },
+        {
+            "toponymName": "Dordrecht"
+        },
+        {
+            "toponymName": "Drechterland"
+        },
+        {
+            "toponymName": "Drimmelen"
+        },
+        {
+            "toponymName": "Dronten"
+        },
+        {
+            "toponymName": "Druten"
+        },
+        {
+            "toponymName": "Duiven"
+        },
+        {
+            "toponymName": "Echt-Susteren"
+        },
+        {
+            "toponymName": "Edam-Volendam"
+        },
+        {
+            "toponymName": "Ede"
+        },
+        {
+            "toponymName": "Eemnes"
+        },
+        {
+            "toponymName": "Eemsdelta"
+        },
+        {
+            "toponymName": "Eersel"
+        },
+        {
+            "toponymName": "Eijsden-Margraten"
+        },
+        {
+            "toponymName": "Eindhoven"
+        },
+        {
+            "toponymName": "Elburg"
+        },
+        {
+            "toponymName": "Emmen"
+        },
+        {
+            "toponymName": "Enkhuizen"
+        },
+        {
+            "toponymName": "Enschede"
+        },
+        {
+            "toponymName": "Epe"
+        },
+        {
+            "toponymName": "Ermelo"
+        },
+        {
+            "toponymName": "Etten-Leur"
+        },
+        {
+            "toponymName": "De Fryske Marren"
+        },
+        {
+            "toponymName": "Den Haag"
+        },
+        {
+            "toponymName": "Geertruidenberg"
+        },
+        {
+            "toponymName": "Geldrop-Mierlo"
+        },
+        {
+            "toponymName": "Gemert-Bakel"
+        },
+        {
+            "toponymName": "Gennep"
+        },
+        {
+            "toponymName": "Gilze en Rijen"
+        },
+        {
+            "toponymName": "Goeree-Overflakkee"
+        },
+        {
+            "toponymName": "Goes"
+        },
+        {
+            "toponymName": "Goirle"
+        },
+        {
+            "toponymName": "Gooise Meren"
+        },
+        {
+            "toponymName": "Gorinchem"
+        },
+        {
+            "toponymName": "Gouda"
+        },
+        {
+            "toponymName": "Groningen"
+        },
+        {
+            "toponymName": "Gulpen-Wittem"
+        },
+        {
+            "toponymName": "Haaksbergen"
+        },
+        {
+            "toponymName": "Haarlem"
+        },
+        {
+            "toponymName": "Haarlemmermeer"
+        },
+        {
+            "toponymName": "Halderberge"
+        },
+        {
+            "toponymName": "Hardenberg"
+        },
+        {
+            "toponymName": "Harderwijk"
+        },
+        {
+            "toponymName": "Hardinxveld-Giessendam"
+        },
+        {
+            "toponymName": "Harlingen"
+        },
+        {
+            "toponymName": "Hattem"
+        },
+        {
+            "toponymName": "Heemskerk"
+        },
+        {
+            "toponymName": "Heemstede"
+        },
+        {
+            "toponymName": "Heerde"
+        },
+        {
+            "toponymName": "Heerenveen"
+        },
+        {
+            "toponymName": "Heerlen"
+        },
+        {
+            "toponymName": "Heeze-Leende"
+        },
+        {
+            "toponymName": "Heiloo"
+        },
+        {
+            "toponymName": "Den Helder"
+        },
+        {
+            "toponymName": "Hellendoorn"
+        },
+        {
+            "toponymName": "Helmond"
+        },
+        {
+            "toponymName": "Hendrik-Ido-Ambacht"
+        },
+        {
+            "toponymName": "Hengelo (O.)"
+        },
+        {
+            "toponymName": "s-Hertogenbosch"
+        },
+        {
+            "toponymName": "Heumen"
+        },
+        {
+            "toponymName": "Heusden"
+        },
+        {
+            "toponymName": "Hillegom"
+        },
+        {
+            "toponymName": "Hilvarenbeek"
+        },
+        {
+            "toponymName": "Hilversum"
+        },
+        {
+            "toponymName": "Hoeksche Waard"
+        },
+        {
+            "toponymName": "Hof van Twente"
+        },
+        {
+            "toponymName": "Het Hogeland"
+        },
+        {
+            "toponymName": "Hollands Kroon"
+        },
+        {
+            "toponymName": "Hoogeveen"
+        },
+        {
+            "toponymName": "Hoorn"
+        },
+        {
+            "toponymName": "Horst aan de Maas"
+        },
+        {
+            "toponymName": "Houten"
+        },
+        {
+            "toponymName": "Huizen"
+        },
+        {
+            "toponymName": "Hulst"
+        },
+        {
+            "toponymName": "IJsselstein"
+        },
+        {
+            "toponymName": "Kaag en Braassem"
+        },
+        {
+            "toponymName": "Kampen"
+        },
+        {
+            "toponymName": "Kapelle"
+        },
+        {
+            "toponymName": "Katwijk"
+        },
+        {
+            "toponymName": "Kerkrade"
+        },
+        {
+            "toponymName": "Koggenland"
+        },
+        {
+            "toponymName": "Krimpen aan den IJssel"
+        },
+        {
+            "toponymName": "Krimpenerwaard"
+        },
+        {
+            "toponymName": "Laarbeek"
+        },
+        {
+            "toponymName": "Land van Cuijk"
+        },
+        {
+            "toponymName": "Landgraaf"
+        },
+        {
+            "toponymName": "Landsmeer"
+        },
+        {
+            "toponymName": "Lansingerland"
+        },
+        {
+            "toponymName": "Laren (NH.)"
+        },
+        {
+            "toponymName": "Leeuwarden"
+        },
+        {
+            "toponymName": "Leiden"
+        },
+        {
+            "toponymName": "Leiderdorp"
+        },
+        {
+            "toponymName": "Leidschendam-Voorburg"
+        },
+        {
+            "toponymName": "Lelystad"
+        },
+        {
+            "toponymName": "Leudal"
+        },
+        {
+            "toponymName": "Leusden"
+        },
+        {
+            "toponymName": "Lingewaard"
+        },
+        {
+            "toponymName": "Lisse"
+        },
+        {
+            "toponymName": "Lochem"
+        },
+        {
+            "toponymName": "Loon op Zand"
+        },
+        {
+            "toponymName": "Lopik"
+        },
+        {
+            "toponymName": "Losser"
+        },
+        {
+            "toponymName": "Maasdriel"
+        },
+        {
+            "toponymName": "Maasgouw"
+        },
+        {
+            "toponymName": "Maashorst"
+        },
+        {
+            "toponymName": "Maassluis"
+        },
+        {
+            "toponymName": "Maastricht"
+        },
+        {
+            "toponymName": "Medemblik"
+        },
+        {
+            "toponymName": "Meerssen"
+        },
+        {
+            "toponymName": "Meierijstad"
+        },
+        {
+            "toponymName": "Meppel"
+        },
+        {
+            "toponymName": "Middelburg (Z.)"
+        },
+        {
+            "toponymName": "Midden-Delfland"
+        },
+        {
+            "toponymName": "Midden-Drenthe"
+        },
+        {
+            "toponymName": "Midden-Groningen"
+        },
+        {
+            "toponymName": "Moerdijk"
+        },
+        {
+            "toponymName": "Molenlanden"
+        },
+        {
+            "toponymName": "Montferland"
+        },
+        {
+            "toponymName": "Montfoort"
+        },
+        {
+            "toponymName": "Mook en Middelaar"
+        },
+        {
+            "toponymName": "Neder-Betuwe"
+        },
+        {
+            "toponymName": "Nederweert"
+        },
+        {
+            "toponymName": "Nieuwegein"
+        },
+        {
+            "toponymName": "Nieuwkoop"
+        },
+        {
+            "toponymName": "Nijkerk"
+        },
+        {
+            "toponymName": "Nijmegen"
+        },
+        {
+            "toponymName": "Nissewaard"
+        },
+        {
+            "toponymName": "Noardeast-Frysl\u00e2n"
+        },
+        {
+            "toponymName": "Noord-Beveland"
+        },
+        {
+            "toponymName": "Noordenveld"
+        },
+        {
+            "toponymName": "Noordoostpolder"
+        },
+        {
+            "toponymName": "Noordwijk"
+        },
+        {
+            "toponymName": "Nuenen, Gerwen en Nederwetten"
+        },
+        {
+            "toponymName": "Nunspeet"
+        },
+        {
+            "toponymName": "Oegstgeest"
+        },
+        {
+            "toponymName": "Oirschot"
+        },
+        {
+            "toponymName": "Oisterwijk"
+        },
+        {
+            "toponymName": "Oldambt"
+        },
+        {
+            "toponymName": "Oldebroek"
+        },
+        {
+            "toponymName": "Oldenzaal"
+        },
+        {
+            "toponymName": "Olst-Wijhe"
+        },
+        {
+            "toponymName": "Ommen"
+        },
+        {
+            "toponymName": "Oost Gelre"
+        },
+        {
+            "toponymName": "Oosterhout"
+        },
+        {
+            "toponymName": "Ooststellingwerf"
+        },
+        {
+            "toponymName": "Oostzaan"
+        },
+        {
+            "toponymName": "Opmeer"
+        },
+        {
+            "toponymName": "Opsterland"
+        },
+        {
+            "toponymName": "Oss"
+        },
+        {
+            "toponymName": "Oude IJsselstreek"
+        },
+        {
+            "toponymName": "Ouder-Amstel"
+        },
+        {
+            "toponymName": "Oudewater"
+        },
+        {
+            "toponymName": "Overbetuwe"
+        },
+        {
+            "toponymName": "Papendrecht"
+        },
+        {
+            "toponymName": "Peel en Maas"
+        },
+        {
+            "toponymName": "Pekela"
+        },
+        {
+            "toponymName": "Pijnacker-Nootdorp"
+        },
+        {
+            "toponymName": "Purmerend"
+        },
+        {
+            "toponymName": "Putten"
+        },
+        {
+            "toponymName": "Raalte"
+        },
+        {
+            "toponymName": "Reimerswaal"
+        },
+        {
+            "toponymName": "Renkum"
+        },
+        {
+            "toponymName": "Renswoude"
+        },
+        {
+            "toponymName": "Reusel-De Mierden"
+        },
+        {
+            "toponymName": "Rheden"
+        },
+        {
+            "toponymName": "Rhenen"
+        },
+        {
+            "toponymName": "Ridderkerk"
+        },
+        {
+            "toponymName": "Rijssen-Holten"
+        },
+        {
+            "toponymName": "Rijswijk (ZH.)"
+        },
+        {
+            "toponymName": "Roerdalen"
+        },
+        {
+            "toponymName": "Roermond"
+        },
+        {
+            "toponymName": "De Ronde Venen"
+        },
+        {
+            "toponymName": "Roosendaal"
+        },
+        {
+            "toponymName": "Rotterdam"
+        },
+        {
+            "toponymName": "Rozendaal"
+        },
+        {
+            "toponymName": "Rucphen"
+        },
+        {
+            "toponymName": "Schagen"
+        },
+        {
+            "toponymName": "Scherpenzeel"
+        },
+        {
+            "toponymName": "Schiedam"
+        },
+        {
+            "toponymName": "Schiermonnikoog"
+        },
+        {
+            "toponymName": "Schouwen-Duiveland"
+        },
+        {
+            "toponymName": "Simpelveld"
+        },
+        {
+            "toponymName": "Sint-Michielsgestel"
+        },
+        {
+            "toponymName": "Sittard-Geleen"
+        },
+        {
+            "toponymName": "Sliedrecht"
+        },
+        {
+            "toponymName": "Sluis"
+        },
+        {
+            "toponymName": "Smallingerland"
+        },
+        {
+            "toponymName": "Soest"
+        },
+        {
+            "toponymName": "Someren"
+        },
+        {
+            "toponymName": "Son en Breugel"
+        },
+        {
+            "toponymName": "Stadskanaal"
+        },
+        {
+            "toponymName": "Staphorst"
+        },
+        {
+            "toponymName": "Stede Broec"
+        },
+        {
+            "toponymName": "Steenbergen"
+        },
+        {
+            "toponymName": "Steenwijkerland"
+        },
+        {
+            "toponymName": "Stein (L.)"
+        },
+        {
+            "toponymName": "Stichtse Vecht"
+        },
+        {
+            "toponymName": "S\u00fadwest-Frysl\u00e2n"
+        },
+        {
+            "toponymName": "Terneuzen"
+        },
+        {
+            "toponymName": "Terschelling"
+        },
+        {
+            "toponymName": "Texel"
+        },
+        {
+            "toponymName": "Teylingen"
+        },
+        {
+            "toponymName": "Tholen"
+        },
+        {
+            "toponymName": "Tiel"
+        },
+        {
+            "toponymName": "Tilburg"
+        },
+        {
+            "toponymName": "Tubbergen"
+        },
+        {
+            "toponymName": "Twenterand"
+        },
+        {
+            "toponymName": "Tynaarlo"
+        },
+        {
+            "toponymName": "Tytsjerksteradiel"
+        },
+        {
+            "toponymName": "Uitgeest"
+        },
+        {
+            "toponymName": "Uithoorn"
+        },
+        {
+            "toponymName": "Urk"
+        },
+        {
+            "toponymName": "Utrecht"
+        },
+        {
+            "toponymName": "Utrechtse Heuvelrug"
+        },
+        {
+            "toponymName": "Vaals"
+        },
+        {
+            "toponymName": "Valkenburg aan de Geul"
+        },
+        {
+            "toponymName": "Valkenswaard"
+        },
+        {
+            "toponymName": "Veendam"
+        },
+        {
+            "toponymName": "Veenendaal"
+        },
+        {
+            "toponymName": "Veere"
+        },
+        {
+            "toponymName": "Veldhoven"
+        },
+        {
+            "toponymName": "Velsen"
+        },
+        {
+            "toponymName": "Venlo"
+        },
+        {
+            "toponymName": "Venray"
+        },
+        {
+            "toponymName": "Vijfheerenlanden"
+        },
+        {
+            "toponymName": "Vlaardingen"
+        },
+        {
+            "toponymName": "Vlieland"
+        },
+        {
+            "toponymName": "Vlissingen"
+        },
+        {
+            "toponymName": "Voerendaal"
+        },
+        {
+            "toponymName": "Voorne aan Zee"
+        },
+        {
+            "toponymName": "Voorschoten"
+        },
+        {
+            "toponymName": "Voorst"
+        },
+        {
+            "toponymName": "Vught"
+        },
+        {
+            "toponymName": "Waadhoeke"
+        },
+        {
+            "toponymName": "Waalre"
+        },
+        {
+            "toponymName": "Waalwijk"
+        },
+        {
+            "toponymName": "Waddinxveen"
+        },
+        {
+            "toponymName": "Wageningen"
+        },
+        {
+            "toponymName": "Wassenaar"
+        },
+        {
+            "toponymName": "Waterland"
+        },
+        {
+            "toponymName": "Weert"
+        },
+        {
+            "toponymName": "West Betuwe"
+        },
+        {
+            "toponymName": "West Maas en Waal"
+        },
+        {
+            "toponymName": "Westerkwartier"
+        },
+        {
+            "toponymName": "Westerveld"
+        },
+        {
+            "toponymName": "Westervoort"
+        },
+        {
+            "toponymName": "Westerwolde"
+        },
+        {
+            "toponymName": "Westland"
+        },
+        {
+            "toponymName": "Weststellingwerf"
+        },
+        {
+            "toponymName": "Wierden"
+        },
+        {
+            "toponymName": "Wijchen"
+        },
+        {
+            "toponymName": "Wijdemeren"
+        },
+        {
+            "toponymName": "Wijk bij Duurstede"
+        },
+        {
+            "toponymName": "Winterswijk"
+        },
+        {
+            "toponymName": "Woensdrecht"
+        },
+        {
+            "toponymName": "Woerden"
+        },
+        {
+            "toponymName": "De Wolden"
+        },
+        {
+            "toponymName": "Wormerland"
+        },
+        {
+            "toponymName": "Woudenberg"
+        },
+        {
+            "toponymName": "Zaanstad"
+        },
+        {
+            "toponymName": "Zaltbommel"
+        },
+        {
+            "toponymName": "Zandvoort"
+        },
+        {
+            "toponymName": "Zeewolde"
+        },
+        {
+            "toponymName": "Zeist"
+        },
+        {
+            "toponymName": "Zevenaar"
+        },
+        {
+            "toponymName": "Zoetermeer"
+        },
+        {
+            "toponymName": "Zoeterwoude"
+        },
+        {
+            "toponymName": "Zuidplas"
+        },
+        {
+            "toponymName": "Zundert"
+        },
+        {
+            "toponymName": "Zutphen"
+        },
+        {
+            "toponymName": "Zwartewaterland"
+        },
+        {
+            "toponymName": "Zwijndrecht"
+        },
+        {
+            "toponymName": "Zwolle"
+        }
+    ]
+}

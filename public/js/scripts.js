@@ -29,7 +29,7 @@ let gemeenteSuggestions = [];
 let bronSuggestions = [];
 
 // Fetch suggestions for Gemeente and Bron
-fetch('./data/citynames.json')
+fetch('./data/citynamescbs.json')
   .then(response => response.json())
   .then(data => {
     gemeenteSuggestions = data.geonames.map(city => city.toponymName);

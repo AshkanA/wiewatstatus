@@ -32,7 +32,7 @@ let bronSuggestions = [];
 fetch('./data/citynamescbs.json')
   .then(response => response.json())
   .then(data => {
-    gemeenteSuggestions = data.geonames.map(city => city.toponymName);
+    gemeenteSuggestions = data.cbsnames.map(city => city.toponymName);
   })
   .catch(error => console.error('Error loading city names:', error));
 

@@ -370,17 +370,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearButton = document.getElementById('clearButton');
   const recordsTable = document.getElementById('recordsTable');
 
-  // Function to filter table rows based on search query
-  searchBox.addEventListener('input', () => {
-    const filter = searchBox.value.toLowerCase();
-    const rows = recordsTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+// Function to filter table rows based on search query with enhanced special character handling
+searchBox.addEventListener('input', () => {
+  const filter = normalizeText(searchBox.value).replace(/\s+/g, ''); // Normalize and remove spaces
+  const rows = recordsTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
 
-    Array.from(rows).forEach(row => {
-      const cells = row.getElementsByTagName('td');
-      const rowText = Array.from(cells).map(cell => cell.textContent.toLowerCase()).join(' ');
-      row.style.display = rowText.includes(filter) ? '' : 'none';
-    });
+  Array.from(rows).forEach(row => {
+    const cells = row.getElementsByTagName('td');
+    const rowText = Array.from(cells)
+      .map(cell => normalizeText(cell.textContent).replace(/-/g, '').replace(/\s+/g, '')) // Normalize and handle dashes/spaces
+      .join('');
+
+    row.style.display = rowText.includes(filter) ? '' : 'none';
   });
+});
+
+
 
   // Function to clear the search box and reset the table rows
   clearButton.addEventListener('click', () => {

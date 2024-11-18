@@ -385,8 +385,6 @@ searchBox.addEventListener('input', () => {
   });
 });
 
-
-
   // Function to clear the search box and reset the table rows
   clearButton.addEventListener('click', () => {
     searchBox.value = '';

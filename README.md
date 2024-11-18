@@ -18,7 +18,7 @@
 - **Records Sorteren**: De records kunnen worden gesorteerd op kolom met behulp van de Tablesort-bibliotheek, die de gegevens automatisch ververst.
 - **Records Verwijderen**: Ingelogde beheerders kunnen records verwijderen uit de tabel.
 - **Records Wijzigen**: Ingelogde beheerders kunnen records direct inline wijzigen, waarbij de gegevens in de tabel zelf aanpasbaar zijn.
-- **Auto-aanvulsuggesties**: Voor de velden "gemeente" en "bron" zijn er auto-aanvulsuggesties beschikbaar, gebaseerd op gegevens uit `citynames.json` en `leveranciers.json`, om invoer te vergemakkelijken en de nauwkeurigheid te verhogen.
+- **Auto-aanvulsuggesties**: Voor de velden "gemeente" en "bron" zijn er auto-aanvulsuggesties beschikbaar, gebaseerd op gegevens uit `citynamescbs.json` en `leveranciers.json`, om invoer te vergemakkelijken en de nauwkeurigheid te verhogen.
 - **Wijzigingsverzoek**: Gebruikers kunnen een verzoek indienen om de status, contactpersoon of applicatie naam te wijzigen of een record volledig te laten verwijderen. Deze verzoeken worden verwerkt via EmailJS voor eenvoudige afhandeling.
 - **Honeypot veld voor spambeveiliging**: Het formulier bevat een verborgen honeypot-veld om spam te voorkomen door bot-submissies te detecteren en te negeren.
 

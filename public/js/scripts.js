@@ -124,37 +124,49 @@ bronInput.addEventListener('blur', () => {
 
 
 // Listen for form submission and add data to Firestore
-const form = document.getElementById('dataForm');
-form.addEventListener('submit', async (e) => {
-  e.preventDefault();
+const form = document.getElementById("dataForm");
+form.addEventListener("submit", async (e) => {
+    e.preventDefault();
 
-  // Check honeypot field
-  const honeypotValue = document.getElementById('honeypot').value;
-  if (honeypotValue) {
-    console.warn('Bot submission detected, ignoring.');
-    return; // Do not proceed if honeypot field is filled
-  }
+    // Check honeypot field
+    const honeypotValue = document.getElementById("honeypot").value;
+    if (honeypotValue) {
+        console.warn("Bot submission detected, ignoring.");
+        return; // Do not proceed if honeypot field is filled
+    }
 
-  // Get the form data
-  const newRecord = {
-    gemeente: document.getElementById('gemeente').value,
-    contactpersoon: document.getElementById('contactpersoon').value,
-    onderwerp: document.getElementById('onderwerp').value,
-    subonderwerp: document.getElementById('subonderwerp').value,
-    bron: document.getElementById('bron').value,
-    status: document.getElementById('status').value
-  };
+    // Gather data from form inputs
+    const newRecord = {
+        gemeente: document.getElementById("gemeente").value,
+        contactpersoon: document.getElementById("contactpersoon").value,
+        onderwerp: document.getElementById("onderwerp").value,
+        subonderwerp: document.getElementById("subonderwerp").value,
+        bron: document.getElementById("bron").value,
+        status: document.getElementById("status").value
+    };
 
-  try {
-    // Add the record to Firestore
-    await addDoc(collection(db, 'records'), newRecord);
-    alert('Mapping succesvol toegevoegd!');
-    form.reset();
-    fetchRecords();  // Fetch updated records after adding a new one
-  } catch (error) {
-    console.error('Error adding document: ', error);
-  }
+    try {
+        // Add the new record to Firestore
+        await addDoc(collection(db, "records"), newRecord);
+        alert("Mapping succesvol toegevoegd!");
+        form.reset();
+
+        // Send email notification using EmailJS
+        await emailjs.send("service_46c00xx", "template_jcs0474", {
+            gemeente: newRecord.gemeente,
+            contactpersoon: newRecord.contactpersoon,
+            onderwerp: newRecord.onderwerp,
+            subonderwerp: newRecord.subonderwerp,
+            bron: newRecord.bron,
+            status: newRecord.status,
+        });
+
+    } catch (error) {
+        console.error("Error adding document or sending email: ", error);
+        alert("There was an issue processing your request. Please try again later.");
+    }
 });
+
 
 // Function to fetch records from Firestore and display in the table
 async function fetchRecords() {

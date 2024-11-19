@@ -69,4 +69,5 @@ node_modules/
 .dataconnect
 
 # ignore rules
-firestore.rules
+*.rules
+

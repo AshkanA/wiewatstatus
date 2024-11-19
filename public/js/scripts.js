@@ -151,6 +151,8 @@ form.addEventListener("submit", async (e) => {
         alert("Mapping succesvol toegevoegd!");
         form.reset();
 
+        fetchRecords();
+
         // Send email notification using EmailJS
         await emailjs.send("service_46c00xx", "template_jcs0474", {
             gemeente: newRecord.gemeente,

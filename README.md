@@ -6,7 +6,7 @@
 
 ### 1. Overzicht
 
-"Wie Wat Status" is een eenvoudige webapplicatie waarmee gebruikers informatie kunnen opslaan, beheren en weergeven over verschillende gemeenten, contactpersonen en onderwerpen. De applicatie biedt een login-systeem voor beheerders, die vervolgens nieuwe records kunnen toevoegen en bestaande records kunnen verwijderen.
+De "Wie Wat Status" app is een eenvoudige webapplicatie waarmee gebruikers informatie kunnen opslaan, beheren en weergeven over verschillende gemeenten, contactpersonen en onderwerpen. De applicatie biedt een login-systeem voor beheerders, die vervolgens nieuwe records kunnen toevoegen en bestaande records kunnen verwijderen.
 
 ### 2. Functionaliteiten
 

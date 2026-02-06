@@ -314,6 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const actionColumn = document.querySelector('.action-column');
   const collapsibleHeader = document.querySelector('.form-container');
   const content = document.querySelector('.content');
+  const addMappingButton = document.getElementById('addMappingButton');
   const feedbackButton = document.getElementById('requestButton');
   const feedbackModal = document.getElementById('feedbackModal');
   const closeFeedbackModal = document.getElementById('closeFeedbackModal');
@@ -323,6 +324,14 @@ document.addEventListener('DOMContentLoaded', () => {
   collapsibleHeader.addEventListener('click', () => {
     content.classList.toggle('closed');
   });
+
+  // Open mapping form via knop rechtsboven
+  addMappingButton.addEventListener('click', (event) => {
+    event.stopPropagation();      // voorkomt dat de header ook togglet
+    content.classList.toggle('closed');
+  });
+
+
 
   content.addEventListener('click', event => {
     event.stopImmediatePropagation();

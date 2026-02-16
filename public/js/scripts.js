@@ -6,7 +6,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.0/firebase
 
 // Initialize Firebase Authentication
 const firebaseConfig = {
-  apiKey: "AIzaSyCHN_JjJdkVAwtsr-brohVo28nV3-YdnSA",
+  apiKey: "AIzaSyAKpAIJnxlnDqID9ZndOSxG5W3Z4CE6BUg",
   authDomain: "wiewatstatus.firebaseapp.com",
   projectId: "wiewatstatus",
   storageBucket: "wiewatstatus.appspot.com",
